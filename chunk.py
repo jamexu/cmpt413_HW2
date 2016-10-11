@@ -31,7 +31,7 @@ def create_featureSchema(feat_list, labeled_list):
     return schema
 
 
-def update_featVector(output_label, prev_output_label, true_features, true_label, prev_true_label, feat_vec):
+def update_featVector(output_label, prev_output_label, true_features, true_label, prev_true_label, feat_vec, avg_vec, changed_vec, changed_vec_value, apply_change):
     '''
     function that updates the feature vector by adding or subtracting one from the feature function
     If feature function is not in present in dictionary create key and set to -1 or +1
@@ -45,19 +45,48 @@ def update_featVector(output_label, prev_output_label, true_features, true_label
             output_featureFunction = (k + ':' + v, output_label)
             true_featureFunction = (k + ':' + v, true_label)
 
+        this_feat = changed_vec_value[0]
+        this_epoch = changed_vec_value[0]
+
+        if changed_vec.has_key(output_label) and apply_change:
+            # the values from the last change
+            last_feat = change_vec[output_label][0]
+            last_epoch = change_vec[output_label][1]
+            num_feat = change_vec[output_label][2]
+            multiplier = (this_feat * num_feat + this_epoch - last_feat * num_feat - last_epoch)
+            avg_vec[output_label] += (feat_vec[output_label] * multiplier)
+    
+        if changed_vec.has_key(true_label) and apply_change:
+            # the values from the last change
+            last_feat = change_vec[true_label][0]
+            last_epoch = change_vec[true_label][1]
+            num_feat = change_vec[true_label][2]
+            multiplier = (this_feat * num_feat + this_epoch - last_feat * num_feat - last_epoch)
+            avg_vec[true_label] += (feat_vec[true_label] * multiplier)
+
         if not feat_vec.get(output_featureFunction):
             feat_vec[output_featureFunction] = -1
+            avg_vec[output_featureFunction] = -1
         else:
             feat_vec[output_featureFunction] -= 1
+            avg_vec[output_featureFunction] -= 1
 
         if not feat_vec.get(true_featureFunction):
             feat_vec[true_featureFunction] = 1
+            avg_vec[true_featureFunction] = 1
         else:
             feat_vec[true_featureFunction] += 1
+            avg_vec[true_featureFunction] += 1
+
+        changed_vec[true_featureFunction] = changed_vec_value
+
+
 
 
 def perc_train(train_data, tagset, numepochs):
     feat_vec = defaultdict(int)
+    avg_vec = defaultdict(int)
+    changed_vec = {} # records when vectors were changed, value is (feature/x, epoch/count, totalfeatures)
     print 'numepochs = ', numepochs
     for count in range(0,numepochs):
         print "Epoch: " + str(count)
@@ -67,10 +96,23 @@ def perc_train(train_data, tagset, numepochs):
             for y in range(0,len(output_label)):
                 true_label = train_data[x][0][y].split(' ')[2]
                 if output_label[y] != true_label:
+                    changed_vec_value = [count, x, len(train_data)]
+                    apply_change = (count == (numepochs - 1) and x == (len(train_data) - 1))
                     previous_true_label = train_data[x][0][y-1].split(' ')[2]
-                    update_featVector(output_label[y], output_label[y-1], true_features[y], true_label, previous_true_label, feat_vec)
+                    update_featVector(output_label[y], output_label[y-1], true_features[y], true_label, previous_true_label, feat_vec, avg_vec, changed_vec, changed_vec_value, apply_change)
 
-    return feat_vec
+    for k in changed_vec.iterkeys():
+        this_feat = len(train_data)
+        this_epoch = numepochs
+        last_feat = changed_vec[k][0]
+        last_epoch = changed_vec[k][1]
+        num_feat = changed_vec[k][2]
+        multiplier = (this_feat * num_feat + this_epoch - last_feat * num_feat - last_epoch)
+        avg_vec[k] += (feat_vec[k] * multiplier)
+
+    for k in avg_vec.iterkeys():
+        avg_vec[k] = 1.0 * avg_vec[k] / (numepochs * len(train_data))
+    return avg_vec
 
 if __name__ == '__main__':
     optparser = optparse.OptionParser()
