@@ -48,21 +48,21 @@ def update_featVector(output_label, prev_output_label, true_features, true_label
         this_feat = changed_vec_value[0]
         this_epoch = changed_vec_value[0]
 
-        if changed_vec.has_key(output_label) and apply_change:
+        if changed_vec.has_key(output_featureFunction) and apply_change:
             # the values from the last change
-            last_feat = change_vec[output_label][0]
-            last_epoch = change_vec[output_label][1]
-            num_feat = change_vec[output_label][2]
+            last_feat = changed_vec[output_featureFunction][0]
+            last_epoch = changed_vec[output_featureFunction][1]
+            num_feat = changed_vec[output_featureFunction][2]
             multiplier = (this_feat * num_feat + this_epoch - last_feat * num_feat - last_epoch)
-            avg_vec[output_label] += (feat_vec[output_label] * multiplier)
+            avg_vec[output_featureFunction] += (feat_vec[output_featureFunction] * multiplier)
     
-        if changed_vec.has_key(true_label) and apply_change:
+        if changed_vec.has_key(true_featureFunction) and apply_change:
             # the values from the last change
-            last_feat = change_vec[true_label][0]
-            last_epoch = change_vec[true_label][1]
-            num_feat = change_vec[true_label][2]
+            last_feat = changed_vec[true_featureFunction][0]
+            last_epoch = changed_vec[true_featureFunction][1]
+            num_feat = changed_vec[true_featureFunction][2]
             multiplier = (this_feat * num_feat + this_epoch - last_feat * num_feat - last_epoch)
-            avg_vec[true_label] += (feat_vec[true_label] * multiplier)
+            avg_vec[true_featureFunction] += (feat_vec[true_featureFunction] * multiplier)
 
         if not feat_vec.get(output_featureFunction):
             feat_vec[output_featureFunction] = -1
