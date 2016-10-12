@@ -50,16 +50,16 @@ def update_featVector(output_label, prev_output_label, true_features, true_label
 
         if changed_vec.has_key(output_label) and apply_change:
             # the values from the last change
-            last_feat = change_vec[output_label][0]
-            last_epoch = change_vec[output_label][1]
+            last_feat = changed_vec[output_label][0]
+            last_epoch = changed_vec[output_label][1]
             num_feat = change_vec[output_label][2]
             multiplier = (this_feat * num_feat + this_epoch - last_feat * num_feat - last_epoch)
             avg_vec[output_label] += (feat_vec[output_label] * multiplier)
     
         if changed_vec.has_key(true_label) and apply_change:
             # the values from the last change
-            last_feat = change_vec[true_label][0]
-            last_epoch = change_vec[true_label][1]
+            last_feat = changed_vec[true_label][0]
+            last_epoch = changed_vec[true_label][1]
             num_feat = change_vec[true_label][2]
             multiplier = (this_feat * num_feat + this_epoch - last_feat * num_feat - last_epoch)
             avg_vec[true_label] += (feat_vec[true_label] * multiplier)
