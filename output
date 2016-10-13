@@ -67,8 +67,8 @@ torque NN I-NP
 box NN I-NP
 , , O
 fixed VBN B-VP
-leading VBG B-NP
-edges NNS I-NP
+leading VBG I-VP
+edges NNS B-NP
 for IN B-PP
 the DT B-NP
 wings NNS I-NP
@@ -117,7 +117,7 @@ electronics NNS B-NP
 automotive JJ B-NP
 and CC I-NP
 graphics NNS I-NP
-concern VBP I-NP
+concern VBP B-VP
 . . O
 
 Frank NNP B-NP
@@ -213,7 +213,7 @@ Skokie NNP I-NP
 , , I-NP
 Ill. NNP I-NP
 , , I-NP
-subsidiary NN I-NP
+subsidiary NN B-NP
 of IN B-PP
 this DT B-NP
 New NNP I-NP
@@ -295,7 +295,7 @@ president NN I-NP
 
 Shearson NNP B-NP
 is VBZ B-VP
-about IN O
+about IN B-PP
 60%-held JJ B-ADJP
 by IN B-PP
 American NNP B-NP
@@ -620,7 +620,7 @@ $ $ B-NP
 198 CD I-NP
 . . O
 
-Including VBG B-PP
+Including VBG B-VP
 Monday NNP B-NP
 's POS B-NP
 plunge NN I-NP
@@ -976,7 +976,7 @@ to TO I-VP
 make VB I-VP
 pay NN B-NP
 concessions NNS I-NP
-so RB B-SBAR
+so RB O
 the DT B-NP
 buy-out NN I-NP
 would MD B-VP
@@ -1155,7 +1155,7 @@ a DT B-NP
 statement NN I-NP
 , , O
 US PRP B-NP
-Facilities NNPS I-NP
+Facilities NNPS O
 said VBD B-VP
 Mr. NNP B-NP
 Percival NNP I-NP
@@ -1396,12 +1396,12 @@ reduced VBD B-VP
 third-quarter JJ B-NP
 and CC I-NP
 first-nine-month JJ I-NP
-sales NNS I-NP
+sales NNS B-NP
 growth NN I-NP
 2 CD B-NP
 % NN I-NP
 and CC O
-3 CD B-NP
+3 CD I-NP
 % NN I-NP
 , , O
 respectively RB B-ADVP
@@ -1410,7 +1410,7 @@ respectively RB B-ADVP
 International JJ B-NP
 sales NNS I-NP
 accounted VBD B-VP
-for IN B-PP
+for IN B-ADVP
 47 CD B-NP
 % NN I-NP
 of IN B-PP
@@ -1823,7 +1823,7 @@ continued VBD B-VP
 to TO I-VP
 pace VB I-VP
 sales NNS B-NP
-because IN B-PP
+because IN B-SBAR
 of IN I-PP
 a DT B-NP
 lower JJR I-NP
@@ -2023,7 +2023,7 @@ between IN B-NP
 95 CD I-NP
 cents NNS I-NP
 and CC O
-$ $ B-NP
+$ $ I-NP
 1.05 CD I-NP
 a DT B-NP
 share NN I-NP
@@ -2031,7 +2031,7 @@ share NN I-NP
 
 That DT B-NP
 compares VBZ B-VP
-with IN B-PP
+with IN B-SBAR
 per-share JJ B-NP
 earnings NNS I-NP
 from IN B-PP
@@ -2119,7 +2119,7 @@ Latin NNP B-NP
 America NNP I-NP
 , , O
 Asia NNP B-NP
-and CC O
+and CC I-NP
 Europe NNP B-NP
 . . O
 
@@ -2287,7 +2287,7 @@ was VBD B-VP
 mediocre JJ B-ADJP
 , , O
 but CC O
-great JJ B-ADJP
+great JJ B-ADVP
 everywhere RB B-ADVP
 else RB I-ADVP
 , , O
@@ -2328,7 +2328,7 @@ problem NN I-NP
 Mr. NNP B-NP
 Mark NNP I-NP
 conceded VBD B-VP
-that IN B-SBAR
+that IN B-PP
 Colgate NNP B-NP
 's POS B-NP
 domestic JJ I-NP
@@ -2366,7 +2366,7 @@ results NNS B-NP
 and CC O
 a DT B-NP
 lot NN I-NP
-more JJR I-NP
+more JJR B-NP
 will MD B-VP
 be VB I-VP
 done VBN I-VP
@@ -2378,7 +2378,7 @@ said VBD B-VP
 . . O
 
 `` `` O
-Improving VBG B-NP
+Improving VBG B-VP
 profitability NN I-NP
 of IN B-PP
 U.S. NNP B-NP
@@ -2611,7 +2611,7 @@ a DT B-NP
 few JJ I-NP
 days NNS I-NP
 at IN B-ADVP
-least JJS I-ADVP
+least JJS B-ADJP
 , , O
 he PRP B-NP
 says VBZ B-VP
@@ -2795,7 +2795,7 @@ McDonough NNP B-NP
 `` `` O
 looks VBZ B-VP
 as IN B-SBAR
-if IN I-SBAR
+if IN B-SBAR
 he PRP B-NP
 drove VBD B-VP
 for IN B-PP
@@ -2881,7 +2881,7 @@ to TO I-VP
 hide VB I-VP
 Mr. NNP B-NP
 Madden NNP I-NP
-'s POS B-NP
+'s POS O
 `` `` O
 rapidly RB B-VP
 growing VBG I-VP
@@ -2906,7 +2906,7 @@ columnist NN I-NP
 
 `` `` O
 But CC O
-think VBP B-VP
+think VBP B-NP
 of IN B-PP
 the DT B-NP
 money NN I-NP
@@ -2948,14 +2948,14 @@ pictures NNS I-NP
 Deeply RB B-ADJP
 ingrained JJ I-ADJP
 in IN B-PP
-both DT B-NP
+both DT O
 the DT B-NP
 book NN I-NP
 review NN I-NP
 `` `` O
 Kissing VBG B-VP
 Nature NNP B-NP
-Good-bye UH I-NP
+Good-bye UH O
 '' '' O
 by IN B-PP
 Stephen NNP B-NP
@@ -2975,7 +2975,7 @@ reviewed VBN B-VP
 is VBZ B-VP
 the DT B-NP
 assumption NN I-NP
-that IN B-SBAR
+that IN B-PP
 global JJ B-NP
 warming NN I-NP
 is VBZ B-VP
@@ -3107,7 +3107,7 @@ most RBS B-NP
 of IN I-NP
 , , O
 or CC O
-all DT B-ADVP
+all DT B-NP
 of IN B-PP
 , , O
 present-day JJ B-NP
@@ -3224,7 +3224,7 @@ a DT B-NP
 comptroller NN I-NP
 to TO B-VP
 oversee VB I-VP
-daily JJ I-NP
+daily JJ B-NP
 finances NNS I-NP
 and CC O
 a DT B-NP
@@ -3269,7 +3269,7 @@ who WP B-NP
 will MD B-VP
 be VB I-VP
 hired VBN I-VP
-from IN B-PP
+from IN B-ADVP
 within IN B-PP
 the DT B-NP
 agency NN I-NP
@@ -3358,7 +3358,7 @@ n't RB I-VP
 have VB I-VP
 internal JJ B-NP
 controls NNS I-NP
-and CC I-NP
+and CC O
 discipline NN I-NP
 that IN B-NP
 we PRP B-NP
@@ -3728,7 +3728,7 @@ The DT B-NP
 rebel NN I-NP
 officer NN I-NP
 's POS B-NP
-slow JJ B-ADJP
+slow JJ I-NP
 and CC I-NP
 painful JJ I-NP
 death NN I-NP
@@ -3911,7 +3911,7 @@ maintaining VBG B-VP
 power NN B-NP
 . . O
 
-Yet RB O
+Yet RB B-ADVP
 , , O
 while IN B-SBAR
 the DT B-NP
@@ -3940,7 +3940,7 @@ Mr. NNP B-NP
 Noriega NNP I-NP
 and CC I-NP
 Washington NNP I-NP
-that IN B-SBAR
+that IN B-PP
 stretches NNS B-NP
 back RB B-VP
 three CD B-NP
@@ -3959,7 +3959,7 @@ past JJ I-NP
 two CD I-NP
 years NNS I-NP
 , , O
-following VBG B-PP
+following VBG B-VP
 his PRP$ B-NP
 indictment NN I-NP
 on IN B-PP
@@ -4059,10 +4059,10 @@ by IN B-PP
 Lima NNP B-NP
 authorities NNS I-NP
 for IN B-PP
-allegedly RB B-ADVP
+allegedly RB B-NP
 raping VBG B-VP
-and CC O
-savagely RB B-VP
+and CC I-VP
+savagely RB I-VP
 beating VBG I-VP
 a DT B-NP
 prostitute NN I-NP
@@ -4289,7 +4289,7 @@ long JJ I-NP
 history NN I-NP
 of IN B-PP
 propping VBG B-VP
-up IN B-PRT
+up IN B-SBAR
 Mr. NNP B-NP
 Noriega NNP I-NP
 , , O
@@ -4329,8 +4329,8 @@ Mr. NNP B-NP
 Moss NNP I-NP
 , , O
 but CC O
-increasing VBG B-NP
-external JJ I-NP
+increasing VBG B-VP
+external JJ B-NP
 pressure NN I-NP
 has VBZ B-VP
 only RB I-VP
@@ -4533,7 +4533,7 @@ a DT B-NP
 short JJ I-NP
 attention NN I-NP
 span NN I-NP
-and CC O
+and CC I-NP
 little JJ I-NP
 stomach NN I-NP
 for IN B-PP
@@ -4601,7 +4601,7 @@ Luis NNP B-NP
 Carlos NNP I-NP
 , , O
 knowing VBG B-VP
-that IN B-SBAR
+that IN B-PP
 helping VBG B-VP
 the DT B-NP
 Americans NNPS I-NP
@@ -4632,7 +4632,7 @@ and CC O
 , , O
 more RBR B-ADJP
 important JJ I-ADJP
-, , O
+, , I-ADJP
 among IN B-PP
 his PRP$ B-NP
 officers NNS I-NP
@@ -5004,7 +5004,7 @@ a DT B-NP
 former JJ I-NP
 intelligence NN I-NP
 official NN I-NP
-says NNS B-VP
+says NNS I-NP
 . . O
 
 It PRP B-NP
@@ -5179,14 +5179,14 @@ government NN I-NP
 feared VBD B-VP
 could MD B-VP
 turn VB I-VP
-violent JJ B-ADJP
+violent JJ B-ADVP
 . . O
 
 Mr. NNP B-NP
 Noriega NNP I-NP
 had VBD B-VP
 learned VBN I-VP
-that IN B-SBAR
+that IN B-PP
 a DT B-NP
 local JJ I-NP
 union NN I-NP
@@ -5278,9 +5278,9 @@ was VBD B-VP
 an DT B-NP
 expert NN I-NP
 at IN B-PP
-bribing VBG B-VP
-and CC I-VP
-blackmailing VBG I-VP
+bribing VBG B-NP
+and CC I-NP
+blackmailing VBG I-NP
 people NNS B-NP
 . . O
 '' '' O
@@ -5360,7 +5360,7 @@ run VB B-VP
 around IN B-PP
 the DT B-NP
 courtyard NN I-NP
-naked JJ B-ADJP
+naked JJ I-NP
 , , O
 laughing VBG B-VP
 at IN B-PP
@@ -5583,8 +5583,8 @@ the DT B-NP
 Cubans NNPS I-NP
 -- : O
 not RB O
-to TO O
-mention VB O
+to TO B-VP
+mention VB I-VP
 the DT B-NP
 Israelis NNPS I-NP
 , , O
@@ -5648,8 +5648,8 @@ tribute NN B-NP
 to TO B-PP
 his PRP$ B-NP
 ability NN I-NP
-to TO B-VP
-simultaneously RB I-VP
+to TO B-PP
+simultaneously RB B-NP
 milk NN I-VP
 the DT B-NP
 antagonistic JJ I-NP
@@ -6127,8 +6127,8 @@ the DT B-NP
 U.S. NNP I-NP
 was VBD B-VP
 once RB B-ADVP
-again RB I-ADVP
-flirting VBG B-VP
+again RB B-ADVP
+flirting VBG I-VP
 with IN B-PP
 its PRP$ B-NP
 longtime JJ I-NP
@@ -6617,7 +6617,7 @@ way NN I-NP
 to TO B-PP
 the DT B-NP
 top JJ I-NP
-only RB B-NP
+only RB I-NP
 two CD I-NP
 years NNS I-NP
 after IN B-SBAR
@@ -6773,7 +6773,7 @@ But CC O
 Mr. NNP B-NP
 Noriega NNP I-NP
 was VBD B-VP
-convinced VBN B-ADJP
+convinced VBN I-VP
 the DT B-NP
 Reagan NNP I-NP
 White NNP I-NP
@@ -6871,7 +6871,7 @@ in IN B-PP
 Nicaragua NNP B-NP
 . . O
 
-Although IN B-ADVP
+Although IN B-SBAR
 , , O
 his PRP$ B-NP
 help NN I-NP
@@ -6905,7 +6905,7 @@ Vermont NNP I-NP
 Democrat NNP I-NP
 who WP B-NP
 then RB B-ADVP
-served VBN B-VP
+served VBN I-VP
 on IN B-PP
 the DT B-NP
 Senate NNP I-NP
@@ -7203,7 +7203,7 @@ and CC O
 the DT B-NP
 first JJ I-NP
 man NN I-NP
-to TO B-VP
+to TO B-PP
 publicly RB I-VP
 finger NN I-VP
 Mr. NNP B-NP
@@ -7329,7 +7329,7 @@ commitment NN I-NP
 to TO B-VP
 lift VB I-VP
 the DT B-NP
--LCB- ( I-NP
+-LCB- ( O
 U.S. NNP O
 . . O
 -RCB- ) O
@@ -7365,7 +7365,7 @@ told VBN I-VP
 Noriega NNP B-NP
 's POS B-NP
 representative NN I-NP
-that IN B-SBAR
+that IN B-PP
 U.S. NNP B-NP
 law NN I-NP
 forbade VBD B-VP
@@ -7464,7 +7464,7 @@ general NN I-NP
 should MD B-VP
 be VB I-VP
 told VBN I-VP
-that IN B-SBAR
+that IN B-PP
 only RB B-ADVP
 he PRP B-NP
 could MD B-VP
@@ -7506,7 +7506,7 @@ CIA NNP B-NP
 Director NNP I-NP
 William NNP I-NP
 Casey NNP I-NP
-and CC O
+and CC I-NP
 resignation NN I-NP
 of IN B-PP
 Oliver NNP B-NP
@@ -7529,7 +7529,7 @@ triggered VBN I-VP
 in IN B-PP
 June NNP B-NP
 1987 CD I-NP
-due JJ B-ADJP
+due JJ B-PP
 to TO B-PP
 charges NNS B-NP
 by IN B-PP
@@ -7770,8 +7770,8 @@ think VB I-VP
 we PRP B-NP
 created VBD B-VP
 him PRP B-NP
-as RB B-ADVP
-much JJ I-ADVP
+as RB I-ADJP
+much JJ I-ADJP
 as IN B-SBAR
 we PRP B-NP
 fed VBD B-VP
@@ -7964,7 +7964,7 @@ earlier RBR I-NP
 Labor NNP I-NP
 Department NNP I-NP
 report NN I-NP
-that IN B-SBAR
+that IN B-PP
 manufacturing NN B-NP
 payrolls NNS I-NP
 dropped VBN B-VP
@@ -8289,8 +8289,8 @@ chief JJ I-NP
 executive JJ I-NP
 officer NN I-NP
 of IN B-PP
-this DT O
-bank NN B-NP
+this DT B-NP
+bank NN I-NP
 holding VBG I-NP
 company NN I-NP
 , , O
@@ -8305,7 +8305,7 @@ chairman NN B-NP
 , , O
 president NN B-NP
 and CC O
-chief JJ I-NP
+chief JJ B-NP
 executive NN I-NP
 of IN B-PP
 the DT B-NP
@@ -8541,7 +8541,7 @@ and CC I-NP
 44 CD I-NP
 a DT B-NP
 decade NN I-NP
-apart RB I-NP
+apart RB B-ADVP
 . . O
 
 The DT B-NP
@@ -8555,8 +8555,8 @@ white JJ B-NP
 males NNS I-NP
 aged VBN B-VP
 35 CD B-NP
-to TO I-NP
-44 CD I-NP
+to TO B-PP
+44 CD B-NP
 in IN B-PP
 the DT B-NP
 mid-1970s NNS I-NP
@@ -8838,7 +8838,7 @@ population NN I-NP
 especially RB I-NP
 children NNS B-NP
 , , O
-adolescents NNS I-NP
+adolescents NNS B-NP
 and CC I-NP
 minorities NNS I-NP
 . . O
@@ -9025,7 +9025,7 @@ cases NNS I-NP
 among IN B-PP
 men NNS B-NP
 and CC O
-75 CD I-NP
+75 CD B-NP
 % NN I-NP
 among IN B-PP
 women NNS B-NP
@@ -9140,16 +9140,16 @@ sex NN I-NP
 . . O
 
 White NNP B-NP
-Males NNPS I-NP
+Males NNPS O
 
 White NNP B-NP
-Females NNPS I-NP
+Females NNPS O
 
 Black NNP B-NP
-Males NNPS I-NP
+Males NNPS O
 
 Black NNP B-NP
-Females NNPS I-NP
+Females NNPS O
 
 Directors NNS B-NP
 elected VBD B-VP
@@ -9366,8 +9366,8 @@ The DT B-NP
 Nasdaq NNP I-NP
 Composite NNP I-NP
 closed VBD B-VP
-down RB B-ADVP
-1.05 CD B-NP
+down RB B-NP
+1.05 CD I-NP
 , , O
 or CC O
 0.2 CD B-NP
@@ -9397,7 +9397,7 @@ said VBD B-VP
 The DT B-NP
 Nasdaq NNP I-NP
 100 CD I-NP
-Index NNP B-NP
+Index NNP I-NP
 began VBD B-VP
 the DT B-NP
 day NN I-NP
@@ -9522,7 +9522,7 @@ would MD B-VP
 rally VB I-VP
 it PRP B-NP
 came VBD B-VP
-down RB B-ADVP
+down RB B-PRT
 . . O
 
 This DT B-NP
@@ -9592,8 +9592,8 @@ an DT B-NP
 opinion NN I-NP
 that WDT B-NP
 lasts VBZ B-VP
-longer RB B-NP
-than IN B-PP
+longer RB B-PP
+than IN I-PP
 30 CD B-NP
 seconds NNS I-NP
 , , O
@@ -9664,7 +9664,7 @@ by IN B-PP
 program NN B-NP
 trading NN I-NP
 has VBZ B-VP
-`` `` O
+`` `` I-VP
 thoroughly RB I-VP
 confused VBN I-VP
 '' '' O
@@ -9724,12 +9724,12 @@ million CD I-NP
 . . O
 
 Advancing VBG B-VP
-and CC I-VP
-declining VBG B-NP
+and CC O
+declining VBG I-NP
 issues NNS I-NP
 finished VBD B-VP
-about IN B-ADVP
-even RB I-ADVP
+about IN B-NP
+even RB I-NP
 . . O
 
 Of IN B-PP
@@ -9849,7 +9849,7 @@ The DT B-NP
 stock NN I-NP
 recovered VBD B-VP
 somewhat RB B-ADVP
-to TO B-VP
+to TO I-VP
 finish VB I-VP
 1 CD B-NP
 1\/4 CD I-NP
@@ -10051,7 +10051,7 @@ was VBD B-VP
 n't RB O
 a DT B-NP
 guarantee NN I-NP
-that IN B-SBAR
+that IN B-PP
 a DT B-NP
 stock NN I-NP
 's POS B-NP
@@ -10254,7 +10254,7 @@ Ingersoll NNP I-NP
 II NNP I-NP
 , , O
 43 CD B-NP
-, , O
+, , I-NP
 chairman NN B-NP
 and CC I-NP
 chief JJ I-NP
@@ -10267,7 +10267,7 @@ take VB I-VP
 on IN B-PP
 additional JJ B-NP
 responsibilities NNS I-NP
-as IN B-SBAR
+as IN B-PP
 editor NN B-NP
 in IN B-PP
 chief NN B-NP
@@ -10297,7 +10297,7 @@ company NN I-NP
 's POS B-NP
 recently RB B-ADJP
 launched VBN I-ADJP
-daily JJ B-ADVP
+daily JJ B-ADJP
 , , O
 the DT B-NP
 St. NNP I-NP
@@ -10343,7 +10343,7 @@ Ms. NNP B-NP
 Clifton NNP I-NP
 had VBD B-VP
 been VBN I-VP
-executive NN B-NP
+executive NN I-NP
 financial JJ I-NP
 assistant NN I-NP
 to TO B-PP
@@ -10351,8 +10351,8 @@ the DT B-NP
 chairman NN I-NP
 . . O
 
-Certainly RB B-NP
-conservative JJ I-NP
+Certainly RB B-ADVP
+conservative JJ B-NP
 environmentalists NNS I-NP
 can MD B-VP
 defend VB I-VP
@@ -10624,8 +10624,8 @@ by IN B-PP
 
 There EX B-NP
 were VBD B-VP
-many RB B-NP
-more JJR I-NP
+many RB B-ADJP
+more JJR I-ADJP
 . . O
 
 Thousands NNS B-NP
@@ -10735,8 +10735,8 @@ and CC O
 nuclear JJ B-NP
 power NN I-NP
 -LRB- ( O
-even RB B-SBAR
-though IN I-SBAR
+even RB B-ADVP
+though IN B-SBAR
 it PRP B-NP
 would MD B-VP
 counteract VB I-VP
@@ -10846,7 +10846,7 @@ Overreacting VBG B-VP
 
 First NNP B-NP
 and CC O
-foremost JJ B-NP
+foremost JJ B-ADJP
 , , O
 the DT B-NP
 vignettes NNS I-NP
@@ -11025,8 +11025,8 @@ and CC I-NP
 technical JJ I-NP
 issues NNS I-NP
 , , O
-that IN B-SBAR
-hardly RB B-NP
+that IN B-NP
+hardly RB B-ADVP
 can MD B-VP
 be VB I-VP
 termed VBN I-VP
@@ -11086,8 +11086,8 @@ done VBN I-VP
 that WDT B-NP
 will MD B-VP
 be VB I-VP
-very RB B-ADJP
-destabilizing VBG I-ADJP
+very RB I-VP
+destabilizing VBG I-VP
 to TO B-PP
 social JJ B-NP
 and CC I-NP
@@ -11101,11 +11101,11 @@ of IN B-PP
 the DT B-NP
 environment NN I-NP
 are VBP B-VP
-so RB I-VP
-interrelated VBN I-VP
-, , O
 so RB B-ADJP
-inextricably RB I-ADJP
+interrelated VBN I-ADJP
+, , O
+so RB O
+inextricably RB I-VP
 entwined VBN I-VP
 with IN B-PP
 our PRP$ B-NP
@@ -11128,7 +11128,7 @@ to TO B-VP
 address VB I-VP
 them PRP B-NP
 effectively RB B-ADVP
-unless IN B-SBAR
+unless IN B-PP
 major JJ B-NP
 changes NNS I-NP
 are VBP B-VP
@@ -11359,7 +11359,7 @@ industry NN I-NP
 's POS B-NP
 4 CD B-ADJP
 % NN I-ADJP
-to TO O
+to TO B-NP
 5 VB I-NP
 % NN I-NP
 growth NN I-NP
@@ -11457,7 +11457,7 @@ to TO I-VP
 keep VB I-VP
 volumes NNS B-NP
 from IN B-PP
-slipping VBG B-NP
+slipping VBG B-VP
 . . O
 
 The DT B-NP
@@ -11490,7 +11490,7 @@ selling VBG B-VP
 administrative JJ B-NP
 and CC I-NP
 general JJ I-NP
-expenses NNS I-NP
+expenses NNS B-NP
 -- : O
 to TO B-PP
 $ $ B-NP
@@ -11619,10 +11619,10 @@ plan NN I-NP
 under IN B-PP
 which WDT B-NP
 Coca-Cola NNP B-NP
-Enterprises NNPS I-NP
-so RB B-VP
-far RB I-VP
-has VBZ I-VP
+Enterprises NNPS O
+so RB B-ADVP
+far RB I-ADVP
+has VBZ B-VP
 acquired VBN I-VP
 a DT B-NP
 total NN I-NP
@@ -12002,8 +12002,8 @@ malls NNS I-NP
 . . O
 
 In IN B-PP
-recent JJ O
-weeks NNS B-VP
+recent JJ B-NP
+weeks NNS I-NP
 Mr. NNP B-NP
 Merksamer NNP I-NP
 has VBZ B-VP
@@ -12272,7 +12272,7 @@ real-estate NN I-NP
 investor NN I-NP
 Jay NNP I-NP
 Shidler NNP I-NP
-and CC I-NP
+and CC O
 A. NNP I-NP
 Boyd NNP I-NP
 Simpson NNP I-NP
@@ -12332,7 +12332,7 @@ had VBD B-VP
 been VBN I-VP
 president NN B-NP
 and CC O
-chief JJ I-NP
+chief JJ B-NP
 executive NN I-NP
 of IN B-PP
 RBS NNP B-NP
@@ -12347,7 +12347,7 @@ Carlson NNP I-NP
 previous JJ B-NP
 president NN I-NP
 and CC O
-chief JJ I-NP
+chief JJ B-NP
 executive NN I-NP
 of IN B-PP
 Universal-Rundle NNP B-NP
@@ -12415,7 +12415,7 @@ set VBN B-VP
 is VBZ B-VP
 contemplating VBG I-VP
 getting VBG I-VP
-out IN B-ADVP
+out IN B-PP
 of IN B-PP
 the DT B-NP
 cartoon NN I-NP
@@ -12468,7 +12468,7 @@ direction NN I-NP
 of IN B-PP
 less JJR B-NP
 and CC I-NP
-less JJR I-NP
+less JJR B-NP
 animation NN I-NP
 , , O
 '' '' O
@@ -12653,7 +12653,7 @@ for IN B-PP
 5 NN B-NP
 % NN I-NP
 , , O
-at IN B-ADVP
+at IN B-PP
 best JJS I-ADVP
 , , O
 of IN B-PP
@@ -12887,7 +12887,7 @@ which WDT B-NP
 are VBP B-VP
 made VBN I-VP
 by IN B-PP
-outside IN B-PP
+outside IN B-ADVP
 production NN B-NP
 companies NNS I-NP
 , , O
@@ -13327,7 +13327,7 @@ cancer NN I-NP
 is VBZ B-VP
 really RB I-VP
 getting VBG I-VP
-short JJ B-ADVP
+short JJ B-ADJP
 shrift NN I-NP
 if IN B-SBAR
 he PRP B-NP
@@ -13428,11 +13428,11 @@ who WP B-NP
 truly RB B-ADVP
 cares VBZ B-VP
 about IN B-PP
-cancer NN B-NP
+cancer NN I-NP
 patients NNS I-NP
 , , O
 both DT B-NP
-today NN B-NP
+today NN I-NP
 and CC I-NP
 tomorrow NN I-NP
 , , O
@@ -13644,7 +13644,7 @@ said VBD B-VP
 they PRP B-NP
 are VBP B-VP
 setting VBG I-VP
-out IN B-PP
+out IN B-ADVP
 to TO B-VP
 find VB I-VP
 the DT B-NP
@@ -13715,8 +13715,8 @@ which WDT B-NP
 are VBP B-VP
 still RB B-ADVP
 undeveloped JJ B-ADJP
-but CC I-ADJP
-which WDT I-ADJP
+but CC O
+which WDT O
 the DT B-NP
 petroleum NN I-NP
 industry NN I-NP
@@ -14017,7 +14017,7 @@ subcommittee NN I-NP
 adopted VBD B-VP
 a DT B-NP
 clean-fuels NNS I-NP
-program VBP I-NP
+program VBP B-VP
 that WDT B-NP
 specifically RB B-VP
 mentions VBZ I-VP
@@ -14185,7 +14185,7 @@ Corp. NNP I-NP
 Lincoln NNP B-NP
 's POS B-NP
 parent NN I-NP
-, , O
+, , B-PP
 and CC O
 who WP B-NP
 contributed VBD B-VP
@@ -14335,7 +14335,7 @@ conservatorship NN B-NP
 -- : O
 the DT B-NP
 day NN I-NP
-after IN B-SBAR
+after IN B-PP
 American NNP B-NP
 Continental NNP I-NP
 filed VBD B-VP
@@ -14501,8 +14501,8 @@ on IN B-PP
 the DT B-NP
 hearings NNS I-NP
 , , O
-except VB O
-to TO B-VP
+except VB B-VP
+to TO I-VP
 say VB I-VP
 , , O
 `` `` O
@@ -14743,7 +14743,7 @@ Cranston NNP I-NP
 volunteered VBD B-VP
 to TO I-VP
 appear VB I-VP
-before IN B-SBAR
+before IN B-PP
 the DT B-NP
 House NNP I-NP
 committee NN I-NP
@@ -14949,7 +14949,7 @@ creditors NNS I-NP
 approval NN I-NP
 . . O
 
-According VBG B-PP
+According VBG B-VP
 to TO B-PP
 one CD B-NP
 person NN I-NP
@@ -15059,7 +15059,7 @@ more JJR B-NP
 service NN I-NP
 than IN B-SBAR
 it PRP B-NP
-originally RB B-VP
+originally RB B-ADVP
 had VBD B-VP
 scheduled VBN I-VP
 . . O
@@ -15156,7 +15156,7 @@ reorganization NN I-NP
 plan NN I-NP
 that WDT B-NP
 called VBD B-VP
-for IN B-PP
+for IN B-SBAR
 Eastern NNP B-NP
 to TO B-VP
 sell VB I-VP
@@ -15239,7 +15239,7 @@ $ $ I-NP
 million CD I-NP
 , , O
 were VBD B-VP
-to TO B-VP
+to TO I-VP
 be VB I-VP
 sold VBN I-VP
 to TO B-PP
@@ -15376,8 +15376,8 @@ of IN B-PP
 experts NNS B-NP
 it PRP B-NP
 calls VBZ B-VP
-on IN B-PRT
-to TO B-VP
+on IN B-PP
+to TO B-NP
 analyze VB I-VP
 Eastern NNP B-NP
 's POS B-NP
@@ -15410,7 +15410,7 @@ earnings NNS B-NP
 before IN B-PP
 interest NN B-NP
 , , I-NP
-tax NN B-NP
+tax NN I-NP
 and CC I-NP
 depreciation NN I-NP
 by IN B-PP
@@ -15419,7 +15419,7 @@ $ $ B-NP
 million CD I-NP
 , , O
 and CC O
-that IN B-SBAR
+that IN B-PP
 Eastern NNP B-NP
 's POS B-NP
 plan NN I-NP
@@ -15572,7 +15572,7 @@ flying VBG I-VP
 flights NNS I-NP
 daily JJ B-ADJP
 instead RB B-PP
-of IN I-PP
+of IN B-PP
 the DT B-NP
 previously RB I-NP
 announced VBN I-NP
@@ -15771,7 +15771,7 @@ get VB I-VP
 creditor NN B-NP
 support NN I-NP
 , , O
-court NN I-NP
+court NN B-NP
 confirmation NN I-NP
 of IN B-PP
 its PRP$ B-NP
@@ -15820,7 +15820,7 @@ with IN B-PP
 the DT B-NP
 case NN I-NP
 question NN I-NP
-whether IN B-SBAR
+whether IN B-PP
 the DT B-NP
 court NN I-NP
 will MD B-VP
@@ -15840,7 +15840,7 @@ Bakes NNP I-NP
 Eastern NNP B-NP
 sought VBD B-VP
 bankruptcy-law NN B-NP
-protection NN I-NP
+protection NN B-VP
 a DT B-NP
 few JJ I-NP
 days NNS I-NP
@@ -15868,7 +15868,7 @@ a DT B-NP
 carrier NN I-NP
 85 CD B-NP
 % NN I-NP
-to TO I-NP
+to TO O
 90 CD B-NP
 % NN I-NP
 of IN B-PP
@@ -16276,14 +16276,14 @@ is VBZ B-VP
 lower JJR B-ADJP
 and CC O
 deductions NNS I-NP
-higher JJR B-ADVP
+higher JJR B-ADJP
 . . O
 
 In IN B-PP
 filing VBG B-VP
 an DT B-NP
 original JJ I-NP
--LRB- ( O
+-LRB- ( I-NP
 not RB O
 amended VBN O
 -RRB- ) O
@@ -16302,7 +16302,7 @@ jointly RB B-ADVP
 or CC I-ADVP
 separately RB I-ADVP
 and CC I-ADVP
-whether IN B-SBAR
+whether IN B-PP
 one CD B-NP
 spouse NN I-NP
 has VBZ B-VP
@@ -16414,7 +16414,7 @@ Notice NN I-NP
 89-136 CD B-NP
 describes VBZ I-NP
 this DT B-NP
-and CC I-NP
+and CC O
 other JJ I-NP
 deadline NN I-NP
 relief NN I-NP
@@ -16451,7 +16451,7 @@ extension NN I-NP
 and CC O
 pay VB B-VP
 tax NN B-NP
-due JJ B-ADJP
+due JJ I-NP
 by IN B-PP
 Nov. NNP B-NP
 15 CD I-NP
@@ -16605,7 +16605,7 @@ drive NN I-NP
 . . O
 
 Estimating VBG B-VP
-that IN B-SBAR
+that IN B-PP
 the DT B-NP
 state NN I-NP
 may MD B-VP
@@ -17060,7 +17060,7 @@ mere JJ I-NP
 two CD I-NP
 hours NNS I-NP
 of IN B-PP
-pedaling VBG B-NP
+pedaling VBG B-VP
 fat-tired JJ I-NP
 mountain NN I-NP
 bikes NNS I-NP
@@ -17100,7 +17100,7 @@ Calif. NNP I-NP
 state NN I-NP
 park NN I-NP
 are VBP B-VP
-among IN B-SBAR
+among IN B-PP
 the DT B-NP
 many JJ I-NP
 who WP B-NP
@@ -17115,8 +17115,8 @@ enthusiasm NN I-NP
 This DT B-NP
 summer NN I-NP
 , , O
-speeding VBG B-NP
-bikers NNS I-NP
+speeding VBG B-VP
+bikers NNS B-NP
 were VBD B-VP
 blamed VBN I-VP
 for IN B-PP
@@ -17361,7 +17361,7 @@ asserting VBG B-VP
 a DT B-NP
 right NN I-NP
 , , O
-as IN B-PP
+as IN B-SBAR
 taxpayers NNS B-NP
 , , O
 to TO B-VP
@@ -17473,7 +17473,7 @@ speeds NNS B-NP
 of IN B-PP
 up IN B-NP
 to TO I-NP
-40 CD I-NP
+40 CD B-NP
 miles NNS I-NP
 an DT B-NP
 hour NN I-NP
@@ -17524,8 +17524,8 @@ some DT B-NP
 regional JJ I-NP
 parks NNS I-NP
 , , O
-recently RB B-VP
-adopted VBN B-NP
+recently RB B-NP
+adopted VBN I-NP
 regulations NNS I-NP
 that WDT B-NP
 closed VBD B-VP
@@ -17723,7 +17723,7 @@ of IN B-PP
 its PRP$ B-NP
 500,000 CD I-NP
 members NNS I-NP
-own JJ I-NP
+own JJ B-VP
 mountain NN B-NP
 bikes NNS I-NP
 . . O
@@ -17927,7 +17927,7 @@ hikers NNS B-NP
 many JJ B-NP
 are VBP B-VP
 appalled VBN I-VP
-that IN B-SBAR
+that IN B-PP
 the DT B-NP
 conservation NN I-NP
 community NN I-NP
@@ -17960,7 +17960,7 @@ access NN B-NP
 issues NNS I-NP
 and CC O
 undertake VB B-VP
-education NN I-NP
+education NN B-NP
 programs NNS I-NP
 to TO B-VP
 show VB I-VP
@@ -18210,7 +18210,7 @@ responsive JJ I-ADJP
 , , O
 more RBR B-ADJP
 stable JJ I-ADJP
-and CC B-ADVP
+and CC B-PP
 in IN B-PP
 many JJ B-NP
 ways NNS I-NP
@@ -18322,8 +18322,8 @@ through IN B-PP
 road NN B-NP
 glass NN I-NP
 with IN B-PP
-far RB B-NP
-fewer RBR I-NP
+far RB B-ADJP
+fewer RBR B-NP
 flat JJ I-NP
 tires NNS I-NP
 than IN B-PP
@@ -18455,7 +18455,7 @@ can MD B-VP
 do VB I-VP
 so RB B-ADVP
 much RB I-ADVP
-more JJR I-ADJP
+more JJR I-ADVP
 , , O
 '' '' O
 he PRP B-NP
@@ -18507,7 +18507,7 @@ Gotaas-Larsen NNP B-NP
 Shipping NNP I-NP
 Corp. NNP I-NP
 , , O
-offering NN B-VP
+offering NN B-NP
 of IN B-PP
 $ $ B-NP
 280 CD I-NP
@@ -18643,7 +18643,7 @@ declines NNS I-NP
 . . O
 
 That DT B-NP
-cut NN I-NP
+cut NN B-VP
 short VB B-VP
 the DT B-NP
 rally NN I-NP
@@ -18754,7 +18754,7 @@ yesterday NN B-NP
 
 Gold NNP B-NP
 , , O
-a DT O
+a DT B-NP
 closely RB I-NP
 watched VBN I-NP
 barometer NN I-NP
@@ -18875,7 +18875,7 @@ their PRP$ B-NP
 credit NN I-NP
 grip NN I-NP
 any DT B-NP
-further JJ I-NP
+further JJ B-ADVP
 because IN B-SBAR
 a DT B-NP
 bold JJ I-NP
@@ -18964,7 +18964,7 @@ huge JJ I-NP
 wave NN I-NP
 of IN B-PP
 Treasury NNP B-NP
-borrowing NN B-VP
+borrowing NN I-NP
 early JJ B-NP
 next JJ I-NP
 month NN I-NP
@@ -18983,7 +18983,7 @@ with IN B-PP
 poor JJ B-NP
 third-quarter JJ I-NP
 corporate-earnings NNS I-NP
-comparisons NNS I-NP
+comparisons NNS B-NP
 , , O
 `` `` O
 will MD B-VP
@@ -19019,7 +19019,7 @@ junk-bond NN B-NP
 jitters NNS I-NP
 , , O
 and CC O
-that IN B-SBAR
+that IN B-PP
 stock NN B-NP
 prices NNS I-NP
 will MD B-VP
@@ -19110,7 +19110,7 @@ at IN B-PP
 The DT B-NP
 dollar NN I-NP
 was VBD B-VP
-mixed VBN B-ADJP
+mixed VBN I-VP
 . . O
 
 Late JJ B-NP
@@ -19262,7 +19262,7 @@ six CD B-NP
 one-hour JJ B-NP
 programs NNS I-NP
 , , O
-beginning VBG B-VP
+beginning VBG B-PP
 in IN B-PP
 April NNP B-NP
 1990 CD I-NP
@@ -19374,9 +19374,9 @@ health NN I-NP
 It PRP B-NP
 certainly RB B-ADVP
 is VBZ B-VP
-n't RB O
-to TO B-PP
-mine VB B-NP
+n't RB I-VP
+to TO I-VP
+mine VB I-VP
 ! . O
 
 -- : O
@@ -20772,7 +20772,7 @@ its PRP$ B-NP
 medium NN I-NP
 and CC I-NP
 long-term JJ I-NP
-loans NNS B-NP
+loans NNS I-NP
 outstanding JJ B-ADJP
 to TO B-PP
 these DT B-NP
@@ -20817,8 +20817,8 @@ banking NN I-NP
 
 Fees NNS B-NP
 from IN B-PP
-syndicating VBG B-NP
-loans NNS I-NP
+syndicating VBG B-VP
+loans NNS B-NP
 dropped VBD B-VP
 48 CD B-NP
 % NN I-NP
@@ -21096,7 +21096,7 @@ and CC I-NP
 downs NNS I-NP
 , , O
 promises VBZ B-VP
-and CC I-VP
+and CC O
 disappointments NNS B-NP
 and CC O
 wide JJ B-NP
@@ -21277,10 +21277,10 @@ unfulfilled JJ B-ADVP
 . . O
 
 His PRP$ B-NP
-`` `` I-NP
+`` `` O
 Mr. NNP I-NP
 Clean NNP I-NP
-'' '' I-NP
+'' '' O
 image NN I-NP
 was VBD B-VP
 muddied VBN I-VP
@@ -21396,7 +21396,7 @@ I PRP B-NP
 -RRB- ) O
 retains VBZ B-VP
 control NN B-NP
-of IN B-PP
+of IN B-SBAR
 the DT B-NP
 government NN I-NP
 , , O
@@ -21597,7 +21597,7 @@ office NN B-NP
 . . O
 
 Most JJS B-NP
-political JJ I-NP
+political JJ B-NP
 analysts NNS I-NP
 say VBP B-VP
 that IN B-SBAR
@@ -21655,7 +21655,7 @@ Mehta NNP I-NP
 , , O
 a DT B-NP
 parliamentarian NN I-NP
-and CC O
+and CC I-NP
 former JJ I-NP
 Gandhi NNP I-NP
 ally NN I-NP
@@ -21801,7 +21801,7 @@ free JJ B-ADJP
 of IN B-PP
 commissions NNS B-NP
 or CC O
-agents NNS I-NP
+agents NNS B-NP
 ' POS B-NP
 costs NNS I-NP
 . . O
@@ -21923,7 +21923,7 @@ a DT B-NP
 bribe NN I-NP
 is VBZ B-VP
 needed VBN I-VP
-to TO I-VP
+to TO B-VP
 get VB I-VP
 a DT B-NP
 phone NN I-NP
@@ -22040,7 +22040,7 @@ His PRP$ B-NP
 failures NNS I-NP
 in IN B-PP
 those DT B-NP
-two CD I-NP
+two CD B-NP
 areas NNS I-NP
 deeply RB B-ADVP
 , , O
@@ -22090,8 +22090,8 @@ farmers NNS I-NP
 ' POS B-NP
 bread NN I-NP
 and CC I-NP
-not RB I-NP
-giving VBG B-VP
+not RB B-VP
+giving VBG I-VP
 us PRP B-NP
 any DT B-NP
 support NN I-NP
@@ -22170,7 +22170,7 @@ the DT B-NP
 1977 CD I-NP
 election NN I-NP
 , , O
-following VBG B-PP
+following VBG B-VP
 Mrs. NNP B-NP
 Gandhi NNP I-NP
 's POS B-NP
@@ -22399,7 +22399,7 @@ Parliament NNP I-NP
 , , O
 `` `` O
 ... : O
-neither DT B-ADVP
+neither DT B-VP
 I PRP B-NP
 nor CC O
 any DT B-NP
@@ -22551,7 +22551,7 @@ Sept. NNP B-NP
 
 Retired JJ B-NP
 army NN I-NP
-Chief NNP I-NP
+Chief NNP B-NP
 of IN B-PP
 Staff NNP B-NP
 Krishnaswami NNP I-NP
@@ -22739,7 +22739,7 @@ filing NN I-NP
 by IN B-PP
 Parsow NNP B-NP
 and CC I-NP
-Elkhorn NNP I-NP
+Elkhorn NNP B-NP
 and CC O
 therefore RB B-ADVP
 had VBD B-VP
@@ -22767,7 +22767,7 @@ CACI NNP B-NP
 's POS B-NP
 board NN I-NP
 and CC I-NP
-other JJ I-NP
+other JJ B-NP
 major JJ I-NP
 shareholders NNS I-NP
 in IN B-PP
@@ -22846,7 +22846,7 @@ in IN B-PP
 the DT B-NP
 open JJ I-NP
 market NN I-NP
-, , B-PP
+, , O
 in IN B-PP
 private JJ B-NP
 transactions NNS I-NP
@@ -22869,7 +22869,7 @@ relationship NN I-NP
 between IN B-PP
 bonds NNS B-NP
 and CC O
-stocks NNS B-NP
+stocks NNS I-NP
 was VBD B-VP
 interrupted VBN I-VP
 yesterday NN B-NP
@@ -22907,7 +22907,7 @@ trading NN I-NP
 , , O
 investors NNS B-NP
 were VBD B-VP
-bidding NN I-VP
+bidding NN B-NP
 bond NN I-NP
 prices NNS I-NP
 higher JJR B-ADVP
@@ -22917,7 +22917,7 @@ tumbled VBD B-VP
 and CC O
 fears NNS B-NP
 mounted VBN B-VP
-that IN B-SBAR
+that IN B-PP
 Friday NNP B-NP
 's POS B-NP
 stock NN I-NP
@@ -23320,9 +23320,9 @@ Macy NNP I-NP
 's POS B-NP
 issue NN I-NP
 closed VBD B-VP
-up IN B-ADVP
-about IN B-PP
-one CD B-NP
+up IN B-SBAR
+about IN B-NP
+one CD I-NP
 point NN I-NP
 at IN B-PP
 a DT B-NP
@@ -23367,7 +23367,7 @@ billion CD I-NP
 Traders NNS B-NP
 said VBD B-VP
 hedging VBG I-VP
-related VBN B-ADJP
+related VBN I-VP
 to TO B-PP
 the DT B-NP
 TVA NNP I-NP
@@ -23431,7 +23431,7 @@ to TO I-VP
 remind VB I-VP
 the DT B-NP
 market NN I-NP
-that IN B-SBAR
+that IN B-PP
 there EX B-NP
 will MD B-VP
 be VB I-VP
@@ -23632,7 +23632,7 @@ billion CD I-NP
 . . O
 
 Treasury NNP B-NP
-Securities NNPS I-NP
+Securities NNPS O
 
 Treasury NN B-NP
 securities NNS I-NP
@@ -23799,7 +23799,7 @@ in IN B-PP
 10-year JJ B-NP
 notes NNS I-NP
 priced VBN B-VP
-to TO B-VP
+to TO I-VP
 yield VB I-VP
 8.42 CD B-NP
 % NN I-NP
@@ -23812,7 +23812,7 @@ in IN B-PP
 five-year JJ B-NP
 notes NNS I-NP
 priced VBN B-VP
-to TO B-VP
+to TO I-VP
 yield VB I-VP
 8.33 CD B-NP
 % NN I-NP
@@ -23906,7 +23906,7 @@ after IN B-PP
 a DT B-NP
 brief JJ I-NP
 hiatus NN I-NP
-as IN B-SBAR
+as IN B-PP
 two CD B-NP
 new JJ I-NP
 Remics NNS I-NP
@@ -24160,7 +24160,7 @@ flat JJ I-ADJP
 to TO B-PP
 3\/8 CD B-NP
 point NN I-NP
-lower JJR B-ADJP
+lower JJR B-ADVP
 after IN B-PP
 a DT B-NP
 whipsaw JJ I-NP
@@ -24697,7 +24697,7 @@ an DT B-NP
 estimated VBN I-NP
 23,000 CD I-NP
 loans NNS I-NP
-above IN B-PP
+above IN O
 11 CD B-NP
 % NN I-NP
 under IN B-PP
@@ -24764,7 +24764,7 @@ interests NNS I-NP
 `` `` O
 We PRP B-NP
 are VBP B-VP
-stewards NNS B-NP
+stewards NNS I-VP
 here RB B-ADVP
 , , O
 not RB B-PP
@@ -24950,8 +24950,8 @@ election NN I-NP
 monitoring NN I-NP
 , , O
 but CC O
-more JJR B-NP
-than IN I-NP
+more JJR B-ADJP
+than IN B-PP
 half NN I-NP
 is VBZ B-VP
 likely JJ B-ADJP
@@ -25282,7 +25282,7 @@ by IN B-PP
 the DT B-NP
 administration NN I-NP
 , , O
-with IN B-SBAR
+with IN B-PP
 pollution NN B-NP
 abatement NN I-NP
 and CC I-NP
@@ -25317,7 +25317,7 @@ and CC I-PP
 within IN B-PP
 the DT B-NP
 Housing NNP I-NP
-and CC I-NP
+and CC O
 Urban NNP I-NP
 Development NNP I-NP
 Department NNP I-NP
@@ -25362,7 +25362,7 @@ has VBZ B-VP
 become VBN I-VP
 a DT B-NP
 vehicle NN I-NP
-for IN B-SBAR
+for IN B-PP
 lawmakers NNS B-NP
 to TO B-VP
 earmark VB I-VP
@@ -25752,7 +25752,7 @@ in IN B-PP
 conference NN B-NP
 , , O
 inasmuch RB B-ADVP
-regardless RB I-PP
+regardless RB I-ADVP
 of IN B-PP
 their PRP$ B-NP
 resolution NN I-NP
@@ -25768,7 +25768,7 @@ bill NN I-NP
 Markets NNS B-NP
 usually RB B-ADVP
 get VB I-VP
-noticed VBD B-VP
+noticed VBD B-ADVP
 because IN B-SBAR
 they PRP B-NP
 soar VBP B-VP
@@ -25800,7 +25800,7 @@ new JJ I-NP
 level NN I-NP
 of IN B-PP
 impassiveness NN B-NP
-: : I-NP
+: : O
 The DT O
 most RBS I-NP
 actively RB I-NP
@@ -25813,7 +25813,7 @@ despite IN B-PP
 nervous JJ B-NP
 fluctuations NNS I-NP
 in IN B-PP
-both DT B-NP
+both DT O
 the DT B-NP
 dollar NN I-NP
 and CC O
@@ -25829,7 +25829,7 @@ of IN B-PP
 the DT B-NP
 December NNP I-NP
 , , I-NP
-February NNP I-NP
+February NNP B-NP
 and CC I-NP
 April NNP I-NP
 gold NN I-NP
@@ -25878,7 +25878,7 @@ an DT B-NP
 ounce NN I-NP
 . . O
 
-According VBG B-PP
+According VBG B-VP
 to TO B-PP
 one CD B-NP
 analyst NN I-NP
@@ -26097,12 +26097,12 @@ Canada NNP I-NP
 Toronto NNP B-NP
 precious JJ I-NP
 metals NNS I-NP
-advisers NNS I-NP
+advisers NNS B-NP
 , , O
 said VBD B-VP
 there EX B-NP
 is VBZ B-VP
-little JJ B-NP
+little JJ B-ADJP
 to TO B-VP
 motivate VB I-VP
 gold NN B-NP
@@ -26118,7 +26118,7 @@ Investors NNS B-NP
 in IN B-PP
 the DT B-NP
 U.S. NNP I-NP
-and CC O
+and CC I-NP
 Europe NNP B-NP
 are VBP B-VP
 comfortable JJ B-ADJP
@@ -26257,8 +26257,8 @@ has VBZ B-VP
 been VBN I-VP
 diminishing VBG I-VP
 recently RB B-ADVP
-so RB I-ADVP
-drops VBZ B-NP
+so RB I-ADJP
+drops VBZ I-ADJP
 in IN B-PP
 the DT B-NP
 currency NN I-NP
@@ -26314,8 +26314,8 @@ of IN B-PP
 its PRP$ B-NP
 ` `` I-NP
 flight NN I-NP
-to TO B-PP
-safety VB B-NP
+to TO B-VP
+safety VB I-VP
 ' POS B-NP
 quality NN I-NP
 . . O
@@ -26383,7 +26383,7 @@ producers NNS I-NP
 around IN B-PP
 the DT B-NP
 world NN I-NP
-to TO B-VP
+to TO B-PP
 aggressively RB I-VP
 sell VB I-VP
 gold NN B-ADVP
@@ -26450,7 +26450,7 @@ gold NN B-NP
 producers NNS I-NP
 tended VBD B-VP
 to TO B-PP
-back RB I-PP
+back RB B-ADVP
 off IN B-ADVP
 from IN B-PP
 a DT B-NP
@@ -26466,7 +26466,7 @@ much JJ I-NP
 as IN B-PP
 possible JJ B-ADJP
 before IN B-PP
-selling VBG B-NP
+selling VBG B-VP
 . . O
 
 Mr. NNP B-NP
@@ -26496,7 +26496,7 @@ been VBN I-VP
 having VBG I-VP
 less JJR B-NP
 and CC I-NP
-less JJR I-NP
+less JJR B-NP
 impact NN I-NP
 on IN B-PP
 the DT B-NP
@@ -26529,7 +26529,7 @@ In IN B-PP
 other JJ B-NP
 commodity NN I-NP
 markets NNS I-NP
-yesterday NN I-NP
+yesterday NN B-NP
 : : O
 
 ENERGY NN B-NP
@@ -26599,7 +26599,7 @@ demand NN I-NP
 fundamentals NNS I-NP
 once RB B-SBAR
 again RB B-ADVP
-become VB B-VP
+become VB I-VP
 the DT B-NP
 major JJ I-NP
 consideration NN I-NP
@@ -26646,7 +26646,7 @@ rose VBD B-VP
 on IN B-PP
 a DT B-NP
 report NN I-NP
-that IN B-SBAR
+that IN B-PP
 Cuba NNP B-NP
 may MD B-VP
 seek VB I-VP
@@ -26818,7 +26818,7 @@ belly NN I-NP
 futures NNS I-NP
 contracts NNS I-NP
 rebounded VBD B-VP
-as IN B-SBAR
+as IN B-PP
 livestock NN B-NP
 traders NNS I-NP
 shook VBD B-VP
@@ -26966,7 +26966,7 @@ soybeans NNS I-NP
 have VBP B-VP
 been VBN I-VP
 sold VBN I-VP
-overseas JJ B-ADVP
+overseas JJ B-ADJP
 than IN B-PP
 for IN B-PP
 the DT B-NP
@@ -26985,7 +26985,7 @@ while IN B-SBAR
 wheat NN B-NP
 prices NNS I-NP
 settled VBD B-VP
-mixed VBN B-ADJP
+mixed VBN I-VP
 . . O
 
 Moody NNP B-NP
@@ -27118,7 +27118,7 @@ a DT B-NP
 lot NN I-NP
 about IN B-PP
 managing VBG B-VP
-elephants NNS I-NP
+elephants NNS B-NP
 ; : O
 their PRP$ B-NP
 herds NNS I-NP
@@ -27131,8 +27131,8 @@ the DT B-NP
 nations NNS I-NP
 of IN B-PP
 Europe NNP B-NP
-and CC O
-North NNP B-NP
+and CC I-NP
+North NNP I-NP
 America NNP I-NP
 have VBP B-VP
 decided VBN I-VP
@@ -27426,7 +27426,7 @@ loan NN B-NP
 repayments NNS I-NP
 . . O
 
-Hardest RBS B-VP
+Hardest RBS B-NP
 hit VBN I-VP
 by IN B-PP
 Hugo NNP B-NP
@@ -27531,7 +27531,7 @@ and CC O
 people NNS B-NP
 feel VBP B-VP
 better JJR B-ADJP
-talking VBG I-ADJP
+talking VBG B-VP
 to TO B-PP
 someone NN B-NP
 who WP B-NP
@@ -27546,7 +27546,7 @@ thing NN I-NP
 an DT B-NP
 SBA NNP I-NP
 official NN I-NP
-says NNS B-VP
+says NNS I-NP
 . . O
 
 HEALTH NN B-NP
@@ -27781,8 +27781,8 @@ they PRP B-NP
 discouraging VBG I-VP
 businesses NNS B-NP
 from IN B-PP
-offering NN B-VP
-health NN B-NP
+offering NN B-NP
+health NN I-NP
 plans NNS I-NP
 , , O
 '' '' O
@@ -28119,9 +28119,9 @@ longer RB I-NP
 the DT I-NP
 warranty NN I-NP
 , , O
-the DT O
+the DT B-NP
 longer RB I-NP
-customers NNS I-NP
+customers NNS B-NP
 will MD B-VP
 automatically RB I-VP
 return VB I-VP
@@ -28209,7 +28209,7 @@ they PRP B-NP
 prefer VB I-VP
 to TO I-VP
 work VB I-VP
-in IN B-ADVP
+in IN B-PP
 or CC O
 own VB B-VP
 a DT B-NP
@@ -28217,7 +28217,7 @@ small JJ I-NP
 company NN I-NP
 , , O
 yet RB B-ADVP
-most RBS B-VP
+most RBS B-NP
 take VB I-VP
 jobs NNS B-NP
 with IN B-PP
@@ -28283,8 +28283,8 @@ retire VB I-VP
 as IN B-PP
 the DT B-NP
 bank NN I-NP
-holding VBG I-NP
-company NN I-NP
+holding VBG B-VP
+company NN B-NP
 's POS B-NP
 president NN I-NP
 effective JJ B-ADJP
@@ -28607,7 +28607,7 @@ profit NN I-NP
 potential JJ I-NP
 '' '' O
 and CC O
-that IN B-SBAR
+that IN B-PP
 paying VBG B-VP
 dividends NNS B-NP
 from IN B-PP
@@ -28695,7 +28695,7 @@ voices NNS I-NP
 of IN B-PP
 skepticism NN B-NP
 were VBD B-VP
-all DT I-VP
+all DT O
 but CC I-VP
 drowned VBN I-VP
 out IN B-ADVP
@@ -28712,7 +28712,7 @@ was VBD B-VP
 `` `` O
 the DT B-NP
 Soviets NNPS I-NP
-' '' I-NP
+' '' B-VP
 Vietnam NNP B-NP
 . . O
 '' '' O
@@ -28985,7 +28985,7 @@ further JJ B-ADVP
 . . O
 
 Not RB B-NP
-so RB I-NP
+so RB O
 the DT B-NP
 Soviets NNPS I-NP
 . . O
@@ -29036,7 +29036,7 @@ million CD I-NP
 worth JJ B-ADJP
 per IN B-PP
 month NN B-NP
--- : O
+-- : B-VP
 nearly RB B-NP
 $ $ I-NP
 2 CD I-NP
@@ -29515,8 +29515,8 @@ being VBG I-VP
 inserted VBN I-VP
 into IN B-PP
 Afghanistan NNP B-NP
-even RB B-SBAR
-as IN I-SBAR
+even RB B-ADVP
+as IN B-SBAR
 others NNS B-NP
 were VBD B-VP
 ostentatiously RB I-VP
@@ -29582,7 +29582,7 @@ years NNS B-NP
 of IN B-PP
 American NNP B-NP
 , , O
-European JJ B-ADJP
+European JJ B-NP
 , , I-NP
 Pakistani JJ I-NP
 and CC I-NP
@@ -29675,7 +29675,7 @@ extremists NNS I-NP
 with IN B-PP
 a DT B-NP
 demand NN I-NP
-that IN B-SBAR
+that IN B-PP
 the DT B-NP
 surrender NN I-NP
 be VB B-VP
@@ -29865,7 +29865,7 @@ the DT B-NP
 resistance NN I-NP
 has VBZ B-VP
 been VBN I-VP
-defenseless JJ B-ADJP
+defenseless JJ I-VP
 against IN B-PP
 air NN B-NP
 attack NN I-NP
@@ -29899,7 +29899,7 @@ indicated VBN I-VP
 to TO B-PP
 the DT B-NP
 press NN I-NP
-that IN B-SBAR
+that IN B-PP
 the DT B-NP
 continuation NN I-NP
 of IN B-PP
@@ -29927,7 +29927,7 @@ must MD B-VP
 have VB I-VP
 found VBN I-VP
 that DT B-NP
-information NN I-NP
+information NN B-VP
 useful JJ B-ADJP
 . . O
 
@@ -30039,8 +30039,8 @@ Reagan NNP I-NP
 and CC O
 his PRP$ B-NP
 disciples NNS I-NP
-as RB B-NP
-much JJ I-NP
+as RB B-ADJP
+much JJ I-ADJP
 as IN B-SBAR
 the DT B-NP
 crusade NN I-NP
@@ -30068,7 +30068,7 @@ nuclear JJ I-NP
 missiles NNS I-NP
 . . O
 
-Yet RB O
+Yet RB B-ADVP
 under IN B-PP
 Mr. NNP B-NP
 Reagan NNP I-NP
@@ -30291,8 +30291,8 @@ Republicans NNPS I-NP
 who WP B-NP
 have VBP B-VP
 championed VBN I-VP
-both DT B-NP
-the DT I-NP
+both DT O
+the DT B-NP
 Contras NNPS I-NP
 and CC I-NP
 SDI NNP I-NP
@@ -30417,7 +30417,7 @@ out RB B-ADVP
 Of IN B-PP
 course NN B-NP
 , , O
-neither DT O
+neither DT B-NP
 President NNP I-NP
 Bush NNP I-NP
 nor CC O
@@ -30562,7 +30562,7 @@ of IN B-PP
 Congress NNP B-NP
 -- : O
 most RBS B-ADVP
-recently RB I-ADVP
+recently RB B-ADVP
 in IN B-PP
 a DT B-NP
 White NNP I-NP
@@ -30592,7 +30592,7 @@ administration NN I-NP
 continues VBZ B-VP
 to TO I-VP
 support VB I-VP
-SDI NNP B-NP
+SDI NNP I-NP
 , , O
 or CC O
 Star NNP B-NP
@@ -30777,7 +30777,7 @@ U.S. NNP I-NP
 , , O
 but CC O
 rather RB B-ADVP
-a DT B-NP
+a DT I-NP
 more RBR I-NP
 modest JJ I-NP
 version NN I-NP
@@ -30877,7 +30877,7 @@ It PRP B-NP
 will MD B-VP
 be VB I-VP
 hard JJ B-ADJP
-down RP B-ADVP
+down RP O
 the DT B-NP
 road NN I-NP
 to TO B-VP
@@ -30886,7 +30886,7 @@ Congress NNP B-NP
 to TO B-VP
 approve VB I-VP
 money NN B-NP
-for IN B-PP
+for IN B-SBAR
 SDI NNP B-NP
 plans VBZ B-VP
 if IN B-SBAR
@@ -30927,8 +30927,8 @@ that IN B-SBAR
 the DT B-NP
 administration NN I-NP
 's POS B-NP
-`` `` I-NP
-professions NNS I-NP
+`` `` O
+professions NNS B-NP
 of IN B-PP
 continued VBN B-NP
 commitment NN I-NP
@@ -31006,9 +31006,9 @@ conservatives NNS I-NP
 may MD B-VP
 simply RB I-VP
 be VB I-VP
-so RB I-VP
-pleased VBN I-VP
-that IN B-ADVP
+so RB B-ADJP
+pleased VBN I-ADJP
+that IN B-PP
 their PRP$ B-NP
 anti-communist JJ I-NP
 philosophy NN I-NP
@@ -31134,7 +31134,7 @@ is VBZ B-VP
 distracted VBN I-VP
 by IN B-PP
 questions NNS B-NP
-about IN B-PP
+about IN B-SBAR
 his PRP$ B-NP
 ethics NNS I-NP
 , , O
@@ -31206,7 +31206,7 @@ For IN B-PP
 there EX B-NP
 to TO B-VP
 be VB I-VP
-wind NN I-VP
+wind NN I-NP
 in IN B-PP
 the DT B-NP
 sails NNS I-NP
@@ -31422,7 +31422,7 @@ speech NN I-NP
 would MD B-VP
 be VB I-VP
 `` `` O
-outside IN B-PP
+outside IN B-SBAR
 the DT B-NP
 scope NN I-NP
 of IN B-PP
@@ -31545,13 +31545,13 @@ once RB B-ADVP
 heard VBD B-VP
 arguing VBG I-VP
 `` `` O
-now RB B-SBAR
-that IN I-SBAR
+now RB B-ADVP
+that IN B-SBAR
 we PRP B-NP
 have VBP B-VP
 finally RB I-VP
 recognized VBN I-VP
-that IN B-SBAR
+that IN B-PP
 American JJ B-NP
 blacks NNS I-NP
 have VBP B-VP
@@ -31607,7 +31607,7 @@ such JJ B-NP
 a DT I-NP
 basis NN I-NP
 , , O
-whether IN B-SBAR
+whether IN B-PP
 for IN B-PP
 blacks NNS B-NP
 or CC I-NP
@@ -31624,7 +31624,7 @@ said VBD B-VP
 , , O
 subject NN B-ADJP
 to TO B-PP
-being VBG B-VP
+being VBG I-VP
 taken VBN I-VP
 back RB B-ADVP
 . . O
@@ -31693,8 +31693,8 @@ Americans NNPS B-NP
 . . O
 '' '' O
 
-Instead RB B-PP
-of IN I-PP
+Instead RB B-ADVP
+of IN B-PP
 lobbying VBG B-VP
 for IN B-PP
 special JJ B-NP
@@ -31716,7 +31716,7 @@ treatment NN I-NP
 under IN B-PP
 the DT B-NP
 law NN I-NP
-and CC B-NP
+and CC I-NP
 not RB I-NP
 aim VB B-VP
 for IN B-PP
@@ -31815,9 +31815,9 @@ rights NNS I-NP
 . . O
 
 He PRP B-NP
-last RB B-VP
-made VBN I-VP
-waves NNS B-NP
+last RB B-NP
+made VBN I-NP
+waves NNS I-NP
 when WRB B-ADVP
 he PRP B-NP
 dared VBD B-VP
@@ -31926,7 +31926,7 @@ effort NN I-NP
 to TO B-VP
 run VB I-VP
 him PRP B-NP
-out IN B-ADVP
+out IN B-PP
 of IN B-PP
 Washington NNP B-NP
 is VBZ B-VP
@@ -32209,7 +32209,7 @@ by IN B-PP
 the DT B-NP
 U.S.-U.S.S.R. NNP I-NP
 Trade NNP I-NP
-and CC I-NP
+and CC O
 Economic NNP B-NP
 Council NNP I-NP
 underscores VBZ B-VP
@@ -32468,9 +32468,9 @@ Soviet JJ I-NP
 legislative JJ I-NP
 panel NN I-NP
 rejected VBD B-VP
-as IN B-PP
-not RB B-NP
-radical JJ I-NP
+as IN B-ADJP
+not RB I-ADJP
+radical JJ I-ADJP
 enough RB B-NP
 a DT I-NP
 government NN I-NP
@@ -32720,7 +32720,7 @@ Singapore NNP I-NP
 government NN I-NP
 next JJ B-NP
 May NNP I-NP
-and CC B-PP
+and CC I-NP
 to TO B-VP
 open VB I-VP
 a DT B-NP
@@ -32831,7 +32831,7 @@ auctioned VBD B-VP
 pistols NNS B-NP
 and CC I-NP
 sabers NNS I-NP
-- : O
+- : B-ADVP
 along IN B-PP
 with IN B-PP
 paintings NNS B-NP
@@ -32985,8 +32985,8 @@ Confederation NNP I-NP
 said VBD B-VP
 . . O
 
-Instead RB B-PP
-of IN I-PP
+Instead RB B-ADVP
+of IN B-PP
 banning VBG B-VP
 such JJ B-NP
 shopping NN I-NP
@@ -33181,7 +33181,7 @@ third JJ I-NP
 quarter NN I-NP
 , , O
 more JJR B-NP
-than IN O
+than IN I-VP
 double VB O
 the DT B-NP
 year-before JJ I-NP
@@ -33273,7 +33273,7 @@ here RB B-ADVP
 to TO B-VP
 base VB I-VP
 optimism NN B-NP
-on IN B-PP
+on IN B-ADVP
 . . O
 '' '' O
 
@@ -33339,7 +33339,7 @@ disappointing JJ B-ADJP
 '' '' O
 but CC O
 added VBD B-VP
-that IN B-SBAR
+that IN B-PP
 the DT B-NP
 company NN I-NP
 has VBZ B-VP
@@ -33485,7 +33485,7 @@ points NNS I-NP
 before IN B-PP
 lunch NN B-NP
 , , O
-with IN B-SBAR
+with IN B-PP
 most RBS B-NP
 of IN B-PP
 the DT B-NP
@@ -33496,7 +33496,7 @@ in IN B-PP
 minutes NNS I-NP
 . . O
 
-Then RB O
+Then RB B-ADVP
 , , O
 it PRP B-NP
 rebounded VBD B-VP
@@ -33529,7 +33529,7 @@ It PRP B-NP
 's VBZ B-VP
 madness NN B-NP
 -- : O
-that IN B-SBAR
+that IN B-PP
 in IN B-PP
 an DT B-NP
 hour NN I-NP
@@ -33660,8 +33660,8 @@ moving VBG I-VP
 up IN B-ADVP
 and CC I-ADVP
 down RB I-ADVP
-so RB I-ADVP
-fast RB I-ADVP
+so RB I-ADJP
+fast RB I-ADJP
 because IN B-SBAR
 investors NNS B-NP
 are VBP B-VP
@@ -33749,8 +33749,8 @@ movements NNS I-NP
 Institutions NNS B-NP
 -- : O
 who WP B-NP
-now JJ B-ADVP
-account NN I-VP
+now JJ I-NP
+account NN I-NP
 for IN B-PP
 most RBS B-NP
 trading NN I-NP
@@ -33780,8 +33780,8 @@ that IN B-SBAR
 markets NNS B-NP
 are VBP B-VP
 n't RB O
-always RB B-ADVP
-as RB B-ADJP
+always RB B-ADJP
+as RB I-ADJP
 liquid JJ I-ADJP
 as IN B-SBAR
 they PRP B-NP
@@ -33833,7 +33833,7 @@ firms NNS I-NP
 had VBD B-VP
 to TO I-VP
 `` `` I-VP
-pay VB I-VP
+pay VB B-VP
 up IN B-ADVP
 , , O
 '' '' O
@@ -33936,7 +33936,7 @@ It PRP B-NP
 's VBZ B-VP
 the DT B-NP
 idea NN I-NP
-that IN B-SBAR
+that IN B-PP
 what WP B-NP
 goes VBZ B-VP
 in IN B-PP
@@ -33969,16 +33969,16 @@ called VBN B-VP
 `` `` O
 asset NN B-NP
 allocation NN I-NP
-'' '' I-NP
+'' '' O
 shifts NNS I-NP
 portfolio NN B-NP
-weightings NNS I-NP
+weightings NNS B-NP
 between IN B-PP
 stocks NNS B-NP
 , , O
 bonds NNS B-NP
-and CC I-NP
-cash NN I-NP
+and CC O
+cash NN B-NP
 when WRB B-ADVP
 computer NN B-NP
 models NNS I-NP
@@ -34072,7 +34072,7 @@ is VBZ B-VP
 portfolio NN B-NP
 insurance NN I-NP
 , , O
-now RB B-VP
+now RB B-ADVP
 widely RB B-VP
 discredited VBN I-VP
 . . O
@@ -34146,8 +34146,8 @@ time NN I-NP
 , , O
 they PRP B-NP
 overwhelmed VBD B-VP
-both DT B-NP
-the DT I-NP
+both DT O
+the DT B-NP
 stock NN I-NP
 and CC I-NP
 futures NNS I-NP
@@ -34156,7 +34156,7 @@ markets NNS I-NP
 
 Yet RB B-NP
 even JJ I-NP
-today NN B-NP
+today NN I-NP
 , , O
 institutions NNS B-NP
 are VBP B-VP
@@ -34170,8 +34170,8 @@ by IN B-PP
 nervously RB B-VP
 rushing VBG I-VP
 to TO B-PP
-and CC I-ADVP
-fro RB I-ADVP
+and CC I-PP
+fro RB B-ADVP
 in IN B-PP
 the DT B-NP
 markets NNS I-NP
@@ -34188,7 +34188,7 @@ a DT B-NP
 strategy NN I-NP
 of IN B-PP
 taking VBG B-VP
-advantage NN B-NP
+advantage NN I-NP
 of IN B-PP
 price NN B-NP
 discrepancies NNS I-NP
@@ -34288,7 +34288,7 @@ think VBP B-VP
 everyone NN B-NP
 's VBZ B-VP
 a DT B-NP
-little RB I-NP
+little RB B-ADVP
 more RBR B-ADJP
 leery JJ I-ADJP
 , , O
@@ -34313,8 +34313,8 @@ The DT B-NP
 institutions NNS I-NP
 have VBP B-VP
 driven VBN I-VP
--LRB- ( I-VP
-commission NN I-VP
+-LRB- ( O
+commission NN O
 -RRB- ) O
 rates NNS B-VP
 down RB B-ADVP
@@ -34387,7 +34387,7 @@ result VB I-VP
 from IN B-PP
 exchange NN B-NP
 `` `` I-NP
-reforms NNS I-NP
+reforms NNS B-NP
 . . O
 '' '' O
 
@@ -34405,7 +34405,7 @@ place NN B-NP
 to TO B-VP
 damp VB I-VP
 volatility NN B-NP
-after IN B-PP
+after IN B-SBAR
 the DT B-NP
 1987 CD I-NP
 crash NN I-NP
@@ -34640,7 +34640,7 @@ Inc. NNP I-NP
 , , O
 points VBZ B-VP
 out RP B-PRT
-that IN B-SBAR
+that IN B-PP
 for IN B-PP
 those DT B-NP
 who WP B-NP
@@ -34675,7 +34675,7 @@ are VBP B-VP
 n't RB O
 as RB B-ADJP
 volatile JJ I-ADJP
-as IN B-SBAR
+as IN B-ADJP
 widely RB B-VP
 assumed VBN I-VP
 . . O
@@ -34892,7 +34892,7 @@ long RB I-ADVP
 as IN B-PP
 liquidity NN B-NP
 falls VBZ B-VP
-short NN B-ADVP
+short NN B-NP
 of IN B-PP
 the DT B-NP
 voracious JJ I-NP
@@ -34912,7 +34912,7 @@ have VBP B-VP
 a DT B-NP
 billion CD I-NP
 dollars NNS I-NP
-of IN B-PP
+of IN B-SBAR
 stocks NNS B-NP
 to TO B-VP
 sell VB I-VP
@@ -34983,8 +34983,8 @@ he PRP B-NP
 called VBD B-VP
 it PRP B-NP
 -- : O
-rather RB B-PP
-than IN I-PP
+rather RB B-ADVP
+than IN B-PP
 on IN B-PP
 long-term JJ B-NP
 fundamental JJ I-NP
@@ -35021,7 +35021,7 @@ is VBZ B-VP
 spreading VBG I-VP
 anti-nuclear JJ B-NP
 messages NNS I-NP
-related VBN B-ADJP
+related VBN B-VP
 to TO B-PP
 its PRP$ B-NP
 Galileo NNP I-NP
@@ -35193,7 +35193,7 @@ to TO B-PP
 the DT B-NP
 much-publicized JJ I-NP
 virus NN I-NP
-that IN B-SBAR
+that IN B-PP
 last JJ B-NP
 year NN I-NP
 infected VBN B-VP
@@ -35350,7 +35350,7 @@ said VBD B-VP
 he PRP B-NP
 was VBD B-VP
 told VBN I-VP
-that IN B-SBAR
+that IN B-PP
 the DT B-NP
 worm NN I-NP
 gets VBZ B-VP
@@ -35463,7 +35463,7 @@ n't RB I-VP
 feed VB I-VP
 the DT B-NP
 bats NNS I-NP
-tonight RB B-NP
+tonight RB B-ADVP
 . . O
 '' '' O
 
@@ -35662,7 +35662,7 @@ should MD B-VP
 explode VB I-VP
 , , O
 or CC O
-if IN B-SBAR
+if IN B-PP
 Galileo NNP B-NP
 itself PRP B-NP
 crashes VBZ B-VP
@@ -35814,8 +35814,8 @@ brought VBN I-VP
 Yet RB O
 it PRP B-NP
 is VBZ B-VP
-also RB B-ADVP
-axiomatic JJ B-ADJP
+also RB B-ADJP
+axiomatic JJ I-ADJP
 that IN B-SBAR
 the DT B-NP
 power NN I-NP
@@ -35855,7 +35855,7 @@ Court NNP I-NP
 has VBZ B-VP
 repeatedly RB I-VP
 held VBN I-VP
-that IN B-ADVP
+that IN B-PP
 a DT B-NP
 judicial JJ I-NP
 power NN I-NP
@@ -36155,7 +36155,7 @@ fourth-level JJ I-NP
 tippee NN I-NP
 . . O
 
-Did VBD O
+Did VBD B-VP
 Mr. NNP B-NP
 Loeb NNP I-NP
 , , O
@@ -36177,7 +36177,7 @@ whom WP B-NP
 -RRB- ) O
 ? . O
 
-Did VBD O
+Did VBD B-VP
 Mr. NNP B-NP
 Loeb NNP I-NP
 seek VB B-VP
@@ -36185,7 +36185,7 @@ personal JJ B-NP
 gain NN I-NP
 -LRB- ( O
 and CC O
-if IN B-SBAR
+if IN B-ADVP
 so RB O
 , , O
 how WRB B-ADVP
@@ -36324,7 +36324,7 @@ Siegel NNP I-NP
 asked VBD B-VP
 Mr. NNP B-NP
 Freeman NNP I-NP
-who WP B-NP
+who WP O
 his PRP$ B-NP
 source NN I-NP
 was VBD B-VP
@@ -36379,7 +36379,7 @@ the DT B-NP
 market NN I-NP
 . . O
 
-Had VBD O
+Had VBD B-VP
 the DT B-NP
 case NN I-NP
 gone VBN B-VP
@@ -36406,7 +36406,7 @@ personal JJ B-NP
 gain NN I-NP
 ? . O
 
-Did VBD O
+Did VBD B-VP
 Mr. NNP B-NP
 Freeman NNP I-NP
 have VBP B-VP
@@ -36423,7 +36423,7 @@ information NN I-NP
 material NN I-NP
 ? . O
 
-Yet RB O
+Yet RB B-ADVP
 , , O
 all PDT B-NP
 these DT I-NP
@@ -36454,7 +36454,7 @@ is VBZ B-VP
 not RB O
 my PRP$ B-NP
 contention NN I-NP
-that IN B-SBAR
+that IN B-PP
 either DT O
 Mr. NNP B-NP
 Chestman NNP I-NP
@@ -36487,7 +36487,7 @@ risky JJ I-NP
 
 But CC O
 even RB B-SBAR
-if IN I-SBAR
+if IN B-SBAR
 they PRP B-NP
 behaved VBD B-VP
 recklessly RB B-ADVP
@@ -36618,8 +36618,8 @@ conduct NN I-NP
 was VBD B-VP
 culpable JJ B-ADJP
 and CC O
-so RB B-VP
-extends VBZ I-VP
+so RB B-ADJP
+extends VBZ B-VP
 the DT B-NP
 definition NN I-NP
 of IN B-PP
@@ -36676,7 +36676,7 @@ example NN B-NP
 , , O
 in IN B-PP
 focusing VBG B-VP
-on IN B-PP
+on IN B-SBAR
 Mr. NNP B-NP
 Freeman NNP I-NP
 's POS B-NP
@@ -36743,7 +36743,7 @@ not RB B-CONJP
 only RB I-CONJP
 would MD B-VP
 reputable JJ I-VP
-professionals NNS B-NP
+professionals NNS I-NP
 have VB B-VP
 rushed VBN I-VP
 to TO I-VP
@@ -36835,7 +36835,7 @@ affected VBN B-VP
 by IN B-PP
 its PRP$ B-NP
 decision NN I-NP
-, , O
+, , B-NP
 not RB I-NP
 just RB B-NP
 the DT I-NP
@@ -36854,9 +36854,9 @@ legislature NN I-NP
 can MD B-VP
 frame VB I-VP
 `` `` O
-bright JJ I-NP
+bright JJ B-INTJ
 line NN I-NP
-'' '' B-NP
+'' '' I-NP
 standards NNS I-NP
 that WDT B-NP
 create VBP B-VP
@@ -37108,7 +37108,7 @@ a DT B-NP
 judicial JJ I-NP
 power NN I-NP
 grab NN I-NP
-than IN B-PP
+than IN B-ADVP
 with IN B-PP
 a DT B-NP
 legislative JJ I-NP
@@ -37243,7 +37243,7 @@ share NN I-NP
 
 The DT B-NP
 telecommunications NNS I-NP
-, , I-NP
+, , O
 specialty NN I-NP
 glass NN I-NP
 , , O
@@ -37327,7 +37327,7 @@ specialty-material JJ I-NP
 segment NN I-NP
 slowed VBD B-VP
 somewhat RB B-ADVP
-and CC O
+and CC I-NP
 consumer NN I-NP
 products NNS I-NP
 continued VBD B-VP
@@ -37387,8 +37387,8 @@ strength NN I-NP
 of IN B-PP
 the DT B-NP
 dollar NN I-NP
-overseas JJ B-ADVP
-which WDT B-NP
+overseas JJ B-ADJP
+which WDT O
 negatively RB B-ADVP
 affected VBN B-VP
 the DT B-NP
@@ -37658,7 +37658,7 @@ bonds NNS I-NP
 , , O
 used VBD B-VP
 often RB B-ADVP
-to TO B-VP
+to TO B-PP
 finance VB I-VP
 restructurings NNS B-NP
 and CC I-NP
@@ -37707,7 +37707,7 @@ soon RB B-ADVP
 . . O
 
 This DT B-NP
-Friday NNP I-NP
+Friday NNP B-NP
 brings VBZ B-VP
 the DT B-NP
 `` `` I-NP
@@ -37892,7 +37892,7 @@ books NNS I-NP
 These DT B-NP
 loans NNS I-NP
 are VBP B-VP
-more JJR B-NP
+more JJR B-ADJP
 of IN B-PP
 a DT B-NP
 focus NN I-NP
@@ -38027,8 +38027,8 @@ baskets NNS I-NP
 of IN B-PP
 stocks NNS B-NP
 against IN B-PP
-offsetting VBG B-NP
-positions NNS I-NP
+offsetting VBG B-VP
+positions NNS B-NP
 in IN B-PP
 futures NNS B-NP
 . . O
@@ -38042,8 +38042,8 @@ the DT B-NP
 sell NN I-NP
 programs NNS I-NP
 are VBP B-VP
-positions NNS I-VP
-being VBG I-VP
+positions NNS B-NP
+being VBG B-VP
 established VBN I-VP
 ahead RB B-ADVP
 of IN B-PP
@@ -38276,8 +38276,8 @@ at IN B-PP
 ; : O
 McDonald NNP B-NP
 's POS B-NP
-also RB B-ADVP
-closed VBD B-VP
+also RB B-ADJP
+closed VBD I-ADJP
 unchanged JJ B-ADJP
 at IN B-PP
 30 CD B-NP
@@ -38360,7 +38360,7 @@ fell VBD B-VP
 to TO B-PP
 92 CD B-NP
 and CC O
-Holiday NNP B-NP
+Holiday NNP I-NP
 Corp. NNP I-NP
 fell VBD B-VP
 2 CD B-NP
@@ -38459,7 +38459,7 @@ airlines NNS B-NP
 casinos NNS B-NP
 and CC O
 securities NNS I-NP
-brokers NNS I-NP
+brokers NNS B-NP
 . . O
 
 Trading NN B-NP
@@ -38722,8 +38722,8 @@ forced VBN I-VP
 to TO I-VP
 file VB I-VP
 under IN B-PP
-Chapter NN B-NP
-11 CD I-NP
+Chapter NN B-VP
+11 CD B-NP
 if IN B-SBAR
 it PRP B-NP
 ca MD B-VP
@@ -38858,7 +38858,7 @@ Carnival NNP B-NP
 Cruise NNP I-NP
 Lines NNP I-NP
 Class NNP I-NP
-A DT I-NP
+A DT O
 dropped VBD B-VP
 1 CD B-NP
 to TO B-PP
@@ -38907,7 +38907,7 @@ Eastern NNP B-NP
 's POS B-NP
 Class NNP I-NP
 F NN I-NP
-preferred JJ I-NP
+preferred JJ B-NP
 rose VBD B-VP
 12 CD B-NP
 % NN I-NP
@@ -39159,7 +39159,7 @@ possible JJ B-NP
 acquisitions NNS I-NP
 . . O
 
-According VBG B-PP
+According VBG B-VP
 to TO B-PP
 a DT B-NP
 spokesman NN I-NP
@@ -39202,8 +39202,8 @@ individual JJ B-NP
 investors NNS I-NP
 , , O
 despite IN B-PP
-falling VBG B-NP
-interest NN I-NP
+falling VBG B-VP
+interest NN B-NP
 rates NNS I-NP
 . . O
 
@@ -39242,8 +39242,8 @@ here RB B-ADVP
 Investors NNS B-NP
 can MD B-VP
 get VB I-VP
-slightly RB B-NP
-higher JJR I-NP
+slightly RB B-ADJP
+higher JJR B-NP
 yields NNS I-NP
 on IN B-PP
 deposits NNS B-NP
@@ -39331,8 +39331,8 @@ in IN B-PP
 the DT B-NP
 last JJ I-NP
 day NN I-NP
-or CC I-NP
-so RB I-NP
+or CC O
+so RB B-ADVP
 , , O
 '' '' O
 said VBD B-VP
@@ -39353,7 +39353,7 @@ York NNP I-NP
 Chemical NNP B-NP
 said VBD B-VP
 deposits NNS B-NP
-Monday NNP I-NP
+Monday NNP O
 were VBD B-VP
 about RB B-NP
 $ $ I-NP
@@ -39396,7 +39396,7 @@ Dow NNP I-NP
 has VBZ B-VP
 more JJR B-NP
 ups NNS I-NP
-and CC I-NP
+and CC O
 downs NNS I-NP
 than IN B-PP
 an DT B-NP
@@ -39802,8 +39802,8 @@ sold VBN B-VP
 by IN B-PP
 brokers NNS B-NP
 were VBD B-VP
-offering NN I-VP
-yields NNS B-NP
+offering NN B-NP
+yields NNS I-NP
 half PDT B-NP
 a DT I-NP
 percentage NN I-NP
@@ -39856,7 +39856,7 @@ rise VB I-VP
 '' '' O
 any DT B-NP
 time NN I-NP
-soon RB B-ADVP
+soon RB B-NP
 , , O
 said VBD B-VP
 Mr. NNP B-NP
@@ -39945,7 +39945,7 @@ intention NN I-NP
 to TO B-VP
 decide VB I-VP
 by IN B-PP
-yearend NN B-VP
+yearend NN B-NP
 the DT B-NP
 size NN I-NP
 of IN B-PP
@@ -39975,7 +39975,7 @@ the DT B-NP
 $ $ I-NP
 12 CD I-NP
 billion CD I-NP
-or CC O
+or CC I-NP
 more RBR B-ADJP
 implicit JJ I-ADJP
 in IN B-PP
@@ -40086,9 +40086,9 @@ approved VBD B-NP
 countries NNS I-NP
 . . O
 
-At IN B-NP
-least JJS I-NP
-three CD I-NP
+At IN B-ADVP
+least JJS I-ADVP
+three CD B-NP
 other JJ I-NP
 factors NNS I-NP
 have VBP B-VP
@@ -40133,7 +40133,7 @@ some DT B-NP
 responsibility NN I-NP
 . . O
 
-Second JJ B-ADVP
+Second JJ B-ADJP
 , , O
 the DT B-NP
 World NNP I-NP
@@ -40168,7 +40168,7 @@ financial JJ I-NP
 institutions NNS I-NP
 . . O
 
-Third NNP B-ADVP
+Third NNP B-NP
 , , O
 the DT B-NP
 IMF NNP I-NP
@@ -40264,7 +40264,7 @@ any DT B-NP
 role NN I-NP
 in IN B-PP
 developing VBG B-VP
-countries NNS I-NP
+countries NNS B-NP
 , , O
 given VBN B-VP
 its PRP$ B-NP
@@ -40346,8 +40346,8 @@ key JJ I-NP
 to TO B-PP
 developing-country JJ B-NP
 growth NN I-NP
-, , O
-not RB O
+, , B-NP
+not RB I-NP
 the DT B-NP
 IMF NNP I-NP
 's POS B-NP
@@ -40641,7 +40641,7 @@ an DT B-NP
 argument NN I-NP
 against IN B-PP
 future NN B-NP
-calls VBZ I-NP
+calls VBZ B-VP
 for IN B-PP
 economic JJ B-NP
 burden-sharing NN I-NP
@@ -40679,8 +40679,8 @@ the DT B-NP
 increase NN I-NP
 , , O
 even RB B-ADVP
-more RBR I-ADVP
-developing-country JJ B-NP
+more RBR B-NP
+developing-country JJ I-NP
 energy NN I-NP
 and CC I-NP
 talent NN I-NP
@@ -41293,7 +41293,7 @@ involve VB I-VP
 us PRP B-NP
 , , O
 and CC O
-nothing NN I-NP
+nothing NN B-VP
 we PRP B-NP
 're VBP B-VP
 doing VBG I-VP
@@ -41360,7 +41360,7 @@ said VBD B-VP
 it PRP B-NP
 may MD B-VP
 bring VB I-VP
-in IN B-ADVP
+in IN B-PP
 other JJ B-NP
 cable NN I-NP
 operators NNS I-NP
@@ -41936,7 +41936,7 @@ for IN B-PP
 $ $ B-NP
 2.25 CD I-NP
 to TO B-PP
-$ $ B-NP
+$ $ I-NP
 2.375 CD I-NP
 each DT B-ADVP
 . . O
@@ -42603,8 +42603,8 @@ from IN B-PP
 marks NNS I-NP
 late JJ B-NP
 Monday NNP I-NP
-, , O
-and CC O
+, , B-PP
+and CC I-PP
 at IN B-PP
 142.75 CD B-NP
 yen NN I-NP
@@ -42673,7 +42673,7 @@ remain VBP B-VP
 bullish JJ B-ADJP
 and CC I-NP
 point NN I-NP
-out RP B-PRT
+out RP I-NP
 that IN B-SBAR
 the DT B-NP
 dollar NN I-NP
@@ -42688,7 +42688,7 @@ rate NN I-NP
 increases NNS I-NP
 in IN B-PP
 Europe NNP B-NP
-and CC O
+and CC I-NP
 Japan NNP I-NP
 , , O
 several JJ B-NP
@@ -42770,7 +42770,7 @@ the DT B-NP
 U.K. NNP I-NP
 , , O
 Italy NNP B-NP
-, , O
+, , I-NP
 Canada NNP B-NP
 and CC I-NP
 Japan NNP I-NP
@@ -43092,7 +43092,7 @@ any DT B-NP
 future NN I-NP
 property NN I-NP
 rights NNS I-NP
-issues NNS I-NP
+issues NNS B-NP
 over IN B-PP
 the DT B-NP
 next JJ I-NP
@@ -43112,7 +43112,7 @@ products NNS I-NP
 are VBP B-VP
 so-called JJ B-ADJP
 analog NN I-NP
-integrated VBN B-NP
+integrated VBN I-NP
 circuits NNS I-NP
 that WDT B-NP
 have VBP B-VP
@@ -43394,7 +43394,7 @@ of IN B-PP
 the DT B-NP
 top JJ I-NP
 10 CD I-NP
-shows VBZ I-NP
+shows VBZ B-VP
 ; : O
 ABC NNP B-NP
 had VBD B-VP
@@ -43413,7 +43413,7 @@ record NN I-NP
 for IN B-PP
 consecutive JJ B-NP
 No. NN I-NP
-1 CD I-NP
+1 CD B-NP
 victories NNS I-NP
 -- : O
 46 CD B-NP
@@ -43514,7 +43514,7 @@ acquisition NN I-NP
 `` `` O
 gives VBZ B-VP
 us PRP B-NP
-additional JJ B-NP
+additional JJ I-NP
 production NN I-NP
 capacity NN I-NP
 for IN B-PP
@@ -43524,7 +43524,7 @@ service NN I-NP
 coffee NN I-NP
 business NN I-NP
 and CC O
-a DT B-NP
+a DT I-NP
 stronger JJR I-NP
 distribution NN I-NP
 network NN I-NP
@@ -43552,8 +43552,8 @@ concerns NNS I-NP
 but CC O
 not RB I-NP
 to TO B-PP
-as IN B-NP
-many JJ I-NP
+as IN B-SBAR
+many JJ B-NP
 markets NNS I-NP
 as IN B-PP
 Maryland NNP B-NP
@@ -43565,8 +43565,8 @@ example NN B-NP
 , , O
 P&G NNP B-NP
 up IN B-ADVP
-until IN B-SBAR
-now RB B-NP
+until IN B-NP
+now RB B-ADVP
 has VBZ B-VP
 n't RB I-VP
 sold VBN I-VP
@@ -43787,7 +43787,7 @@ abortions NNS I-NP
 in IN B-PP
 a DT B-NP
 way NN I-NP
-acceptable JJ B-ADJP
+acceptable JJ I-NP
 to TO B-PP
 the DT B-NP
 president NN I-NP
@@ -43918,7 +43918,7 @@ and CC I-NP
 incest NN I-NP
 , , O
 arguing VBG B-VP
-that IN B-SBAR
+that IN B-PP
 those DT B-NP
 exceptions NNS I-NP
 are VBP B-VP
@@ -44062,7 +44062,7 @@ run VB I-VP
 the DT B-NP
 investment NN I-NP
 bank NN I-NP
-and CC O
+and CC I-NP
 pay VB I-NP
 creditors NNS B-NP
 . . O
@@ -44260,7 +44260,7 @@ Army NNP I-NP
 in IN B-PP
 January NNP B-NP
 , , O
-according VBG B-PP
+according VBG B-VP
 to TO B-PP
 Robert NNP B-NP
 Redfield NNP I-NP
@@ -44415,7 +44415,7 @@ in IN B-PP
 large JJ B-NP
 quantities NNS I-NP
 in IN B-PP
-infected VBN B-NP
+infected VBN B-VP
 or CC I-NP
 ill JJ I-NP
 individuals NNS I-NP
@@ -44734,7 +44734,7 @@ soared VBD B-VP
 , , O
 and CC O
 indicated VBD B-VP
-that IN B-ADVP
+that IN B-PP
 its PRP$ B-NP
 previous JJ I-NP
 estimate NN I-NP
@@ -44831,8 +44831,8 @@ improvement NN I-NP
 in IN B-PP
 net JJ B-NP
 profit NN I-NP
-partly RB B-VP
-reflected VBD I-VP
+partly RB B-ADVP
+reflected VBD B-VP
 a DT B-NP
 decline NN I-NP
 of IN B-PP
@@ -45058,8 +45058,8 @@ by IN B-PP
 the DT B-NP
 Fed NNP I-NP
 and CC O
-publicly RB B-ADJP
-criticized VBN I-ADJP
+publicly RB I-VP
+criticized VBN I-VP
 by IN B-PP
 friends NNS B-NP
 of IN B-PP
@@ -45330,7 +45330,7 @@ insulation NN I-NP
 Goodrich NNP B-NP
 's POS B-NP
 vinyl-products NNS I-NP
-segment VBP I-NP
+segment VBP B-VP
 reported VBD B-VP
 operating VBG B-NP
 profit NN I-NP
@@ -45344,7 +45344,7 @@ million CD I-NP
 , , O
 less JJR B-ADJP
 than IN B-PP
-half PDT O
+half PDT B-NP
 the DT I-NP
 $ $ I-NP
 64.1 CD I-NP
@@ -45361,7 +45361,7 @@ profit NN I-NP
 of IN B-PP
 the DT B-NP
 specialty-chemicals NNS I-NP
-group VBP I-NP
+group VBP B-VP
 declined VBD B-VP
 slightly RB B-ADVP
 to TO B-PP
@@ -45502,7 +45502,7 @@ taking VBG I-VP
 place NN B-NP
 between IN B-PP
 both DT O
-companies NNS I-NP
+companies NNS B-NP
 ' POS B-NP
 aerospace NN I-NP
 units NNS I-NP
@@ -45522,7 +45522,7 @@ much RB I-ADVP
 there EX B-NP
 currently RB B-ADVP
 are VBP B-VP
-no DT B-NP
+no DT O
 talks NNS I-NP
 in IN B-PP
 progress NN B-NP
@@ -45893,7 +45893,7 @@ until IN B-ADVP
 after IN B-SBAR
 the DT B-NP
 expiration NN I-NP
-late JJ B-NP
+late JJ I-NP
 next JJ I-NP
 year NN I-NP
 of IN B-PP
@@ -46057,7 +46057,7 @@ ran VBD B-VP
 . . O
 
 Fears NNS B-NP
-that IN B-SBAR
+that IN B-PP
 Ford NNP B-NP
 's POS B-NP
 ardor NN I-NP
@@ -46129,7 +46129,7 @@ buy NN B-NP
 Sit VB B-VP
 tight JJ B-ADJP
 '' '' O
-through IN B-PP
+through IN B-SBAR
 the DT B-NP
 coming VBG I-NP
 volatility NN I-NP
@@ -46372,7 +46372,7 @@ might MD B-VP
 counterbid NN I-VP
 . . O
 
-Then RB O
+Then RB B-ADVP
 , , O
 Mr NNP B-NP
 . . O
@@ -46442,7 +46442,7 @@ though IN I-SBAR
 they PRP B-NP
 have VBP B-VP
 run VBN I-VP
-up IN B-ADVP
+up IN B-PRT
 '' '' O
 lately RB B-ADVP
 , , O
@@ -46494,7 +46494,7 @@ with IN B-PP
 Jaguar NNP B-NP
 effectively RB B-ADVP
 locks VBZ B-VP
-out IN B-PP
+out IN B-PRT
 its PRP$ B-NP
 U.S. NNP I-NP
 rival JJ I-NP
@@ -46587,7 +46587,7 @@ Inc. NNP I-NP
 , , O
 two CD B-NP
 weeks NNS I-NP
-ago RB B-VP
+ago RB B-ADVP
 sold VBN I-VP
 his PRP$ B-NP
 Cincinnati NNP I-NP
@@ -46675,7 +46675,7 @@ Revenue NN B-NP
 : : O
 $ $ B-NP
 1.71 CD I-NP
-billion CD I-NP
+billion CD O
 
 Net JJ B-NP
 income NN I-NP
@@ -46835,8 +46835,8 @@ special JJ O
 shareholders NNS I-NP
 ' POS B-NP
 meeting NN I-NP
-next JJ B-NP
-Wednesday NNP I-NP
+next JJ B-ADVP
+Wednesday NNP B-NP
 to TO B-VP
 remove VB I-VP
 four CD B-NP
@@ -46917,7 +46917,7 @@ slate NN I-NP
 of IN B-PP
 its PRP$ B-NP
 own JJ I-NP
-and CC O
+and CC I-NP
 the DT B-NP
 other JJ I-NP
 four CD I-NP
@@ -47136,7 +47136,7 @@ million CD I-NP
 a DT B-NP
 year NN I-NP
 earlier RBR B-ADVP
-and CC I-PP
+and CC I-ADVP
 below IN B-PP
 market NN B-NP
 expectations NNS I-NP
@@ -47274,7 +47274,7 @@ software NN I-NP
 for IN B-PP
 personal-computer NN B-NP
 makers NNS I-NP
-and CC O
+and CC I-NP
 users NNS I-NP
 , , O
 reported VBD B-VP
@@ -47329,7 +47329,7 @@ million CD I-NP
 . . O
 
 Microsoft NNP B-NP
-previously RB O
+previously RB B-ADVP
 indicated VBD B-VP
 it PRP B-NP
 would MD B-VP
@@ -47476,7 +47476,7 @@ cost NN I-NP
 of IN B-PP
 goods NNS B-NP
 , , O
-as IN B-SBAR
+as IN B-PP
 a DT B-NP
 percentage NN I-NP
 of IN B-PP
@@ -47546,7 +47546,7 @@ its PRP$ B-NP
 software NN I-NP
 applications NNS I-NP
 and CC O
-operating VBG B-VP
+operating VBG B-NP
 systems NNS I-NP
 . . O
 
@@ -47597,7 +47597,7 @@ market NN I-NP
 . . O
 
 That DT B-NP
-segment NN I-NP
+segment NN B-VP
 continues VBZ B-VP
 to TO I-VP
 post VB I-VP
@@ -47622,7 +47622,7 @@ sluggish JJ B-NP
 growth NN I-NP
 or CC O
 even RB B-NP
-sales VBZ I-NP
+sales VBZ B-VP
 declines NNS B-NP
 . . O
 
@@ -47775,7 +47775,7 @@ The DT B-NP
 accord NN I-NP
 with IN B-PP
 MIPS NNP B-NP
-calls VBZ B-VP
+calls VBZ I-NP
 for IN B-PP
 Control NNP B-NP
 Data NNP I-NP
@@ -47927,7 +47927,7 @@ dominated VBN B-VP
 by IN B-PP
 futures-related JJ B-NP
 program NN I-NP
-selling VBG I-NP
+selling VBG B-VP
 and CC O
 further JJ I-NP
 declines NNS I-NP
@@ -47974,7 +47974,7 @@ while IN B-SBAR
 the DT B-NP
 dollar NN I-NP
 was VBD B-VP
-mixed VBN B-ADJP
+mixed VBN I-VP
 . . O
 
 The DT B-NP
@@ -48484,7 +48484,7 @@ based VBN B-VP
 in IN B-PP
 Menlo NNP B-NP
 Park NNP I-NP
-, , I-NP
+, , O
 Calif. NNP B-NP
 , , O
 was VBD B-VP
@@ -48595,7 +48595,7 @@ proposal NN I-NP
 
 It PRP B-NP
 has VBZ B-VP
-since IN B-PP
+since IN B-SBAR
 asked VBN B-NP
 holders NNS I-NP
 not RB O
@@ -49010,7 +49010,7 @@ whether IN B-SBAR
 it PRP B-NP
 has VBZ B-VP
 spread NN I-VP
-or CC O
+or CC I-VP
 whether IN B-SBAR
 there EX B-NP
 is VBZ B-VP
@@ -49132,8 +49132,8 @@ a DT B-NP
 tumor NN I-NP
 has VBZ B-VP
 spread NN I-VP
-or CC O
-returned VBN I-NP
+or CC I-VP
+returned VBN B-NP
 following VBG I-NP
 treatment NN I-NP
 , , O
@@ -49148,8 +49148,8 @@ do VBP B-VP
 n't RB I-VP
 know VB I-VP
 yet RB B-ADVP
-how WRB I-ADVP
-useful JJ O
+how WRB I-ADJP
+useful JJ I-ADJP
 it PRP B-NP
 's VBZ B-VP
 going VBG I-VP
